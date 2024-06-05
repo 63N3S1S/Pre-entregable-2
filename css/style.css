@@ -707,3 +707,145 @@ footer p{
 }
 
 /* Menu 4 */
+.portada2 {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.wrapper-main-section-menu4 {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--azul-profundo);
+    gap: 1rem;
+    padding: 1rem;
+    color: var(--rojo-vino);
+}
+
+.label {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.label a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: var(--negro-clasico);
+    color: var(--gris-carbon);
+    font-weight: bolder;
+    border-radius: 5px;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Media query tablet */
+@media (max-width: 768px) {
+    .label {
+        grid-template-columns: 1fr;
+    }
+    .label a {
+        width: 100%;
+    }
+}
+
+/* Media query celular */
+@media (max-width: 468px) {
+    .label {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    .label a {
+        width: 100%;
+        padding: 8px 16px;
+    }
+}
+
+.wrapper-faq {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--azul-profundo);
+    color: var(--rojo-vino);
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.faq a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: var(--negro-clasico);
+    color: var(--gris-carbon);
+    font-weight: bolder;
+    border-radius: 5px;
+    text-align: center;
+    width: 80%;
+}
+
+/* Media query tablet */
+@media (max-width: 768px) {
+    .faq a {
+        width: 90%;
+    }
+}
+
+/* Media query celular */
+@media (max-width: 468px) {
+    .faq a {
+        width: 100%;
+        padding: 8px 16px;
+    }
+}
+
+.big-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.box {
+    background-color: var(--gris-carbon);
+    border-radius: 10px;
+    padding: 1rem;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.rating i {
+    color: gold;
+}
+
+/* Media query tablet */
+@media (max-width: 768px) {
+    .box {
+        width: 45%;
+    }
+}
+
+/* Media query celular */
+@media (max-width: 468px) {
+    .box {
+        width: 100%;
+    }
+}
+
