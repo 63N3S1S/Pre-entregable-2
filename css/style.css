@@ -375,7 +375,8 @@ footer p{
 }
 .wrapper-heading h2{
     text-align: center;
-    padding: 1rem;
+    padding-top: 1rem;
+    color: var(--azul-profundo);
 }
 .wrapper-heading article{
     display: flex;
