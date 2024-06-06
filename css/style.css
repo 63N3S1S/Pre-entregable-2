@@ -715,14 +715,14 @@ footer p{
 }
 
 .wrapper-main-section-menu4 {
-    width: 100%;
-    margin: 0 auto;
+    width: 98%;
+    margin: 2rem;
+    margin: 1rem auto;
     text-align: center;
     background-color: var(--azul-profundo);
     gap: 1rem;
     padding: 1rem;
     color: var(--rojo-vino);
-    border-radius: 5%;
 }
 
 .label-toggle {
@@ -931,20 +931,3 @@ button {
 button:hover {
     background-color: #0056b3;
 }
-
-/* Media query tablet */
-/* @media (max-width: 768px) {
-    .container-login {
-        flex-direction: column;
-    }
-    .login-form, .register-form {
-        width: 80%;
-    }
-} */
-
- /* Media query celular */
-/* @media (max-width: 468px) {
-    .login-form, .register-form {
-        width: 100%;
-    }
-} */ 
