@@ -528,6 +528,8 @@ footer p{
     padding: 1rem;
     color: var(--rojo-vino);
     text-decoration:underline;
+    display: block;
+    text-align: center;
 }
 
 /* Media query tablet */
