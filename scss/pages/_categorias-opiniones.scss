@@ -1,0 +1,41 @@
+.portada2 {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.wrapper-main-section-menu4 {
+    width: 98%;
+    margin: 2rem;
+    margin: 1rem auto;
+    text-align: center;
+    background-color: var(--azul-profundo);
+    gap: 1rem;
+    padding: 1rem;
+    color: var(--rojo-vino);
+}
+
+.label-toggle {
+    display: none;
+}
+
+.label-content {
+    display: none;
+    padding: 10px;
+
+    p {
+        color: var(--gris-carbon);
+    }
+}
+
+.label-toggle:checked + label + .label-content {
+    display: block;
+}
+
+label {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+    color: var(--negro-clasico);
+}

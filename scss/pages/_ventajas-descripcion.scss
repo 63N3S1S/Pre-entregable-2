@@ -1,0 +1,31 @@
+.wrapper-front-page-menu1 {
+    display: flex;
+    width: 100%;
+    height: auto;
+
+    img {
+        width: 50%;
+    }
+}
+
+.wrapper-advantages {
+    background-color: var(--azul-profundo);
+    color: var(--gris-carbon);
+    display: grid;
+    gap: 2rem;
+    padding: 1rem;
+    align-content: center;
+
+    h1 {
+        text-align: center;
+    }
+
+    .advantages ul {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(4, auto);
+        gap: 2rem;
+        justify-content: space-around;
+        color: var(--verde-bosque-oscuro);
+    }
+}

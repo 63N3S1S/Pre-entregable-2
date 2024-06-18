@@ -1,0 +1,17 @@
+.wrapper-header-menu2 {
+    color: var(--gris-carbon);
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+
+    iframe {
+        width: 50%;
+    }
+
+    p {
+        width: 50%;
+        text-align: justify;
+    }
+}
