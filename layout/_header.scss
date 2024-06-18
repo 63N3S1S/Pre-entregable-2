@@ -1,0 +1,59 @@
+.header {
+    height: $altura-header;
+    background-color: $verde-oscuro;
+    position: relative;
+    z-index: 10;
+
+    .menu_hamburguesa {
+        display: none;
+        position: relative;
+
+        &:checked + .ul_links {
+            height: calc(100vh - $altura-header);
+        }
+    }
+
+    .logo {
+        color: $negro-clasico;
+    }
+
+    .list_icon {
+        color: $negro-clasico;
+        cursor: pointer;
+    }
+
+    .ul_links {
+        width: 100%;
+        background-color: $verde-oscuro;
+        position: absolute;
+        top: $altura-header;
+        left: 0;
+        height: 0;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        transition: all .3s;
+        z-index: 20;
+        
+        .link {
+            font-size: 1.2em;
+            color: $verde-azulado;
+            font-weight: bold;
+        }
+
+        .sign-in {
+            text-decoration: underline;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: all .3s;
+            padding: .2rem .7rem;
+            color: $rojo-coral;
+
+        &:hover {
+            background-color: $verde-azulado;          }
+        }
+    }
+}

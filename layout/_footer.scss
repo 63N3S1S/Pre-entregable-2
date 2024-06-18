@@ -1,0 +1,13 @@
+footer {
+    color: $gris-carbon;
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    align-content: center;
+    align-items: center;
+
+    p {
+        gap: 1rem;
+        padding: 1rem;
+    }
+}
