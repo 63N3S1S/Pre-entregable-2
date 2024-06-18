@@ -29,3 +29,167 @@
         text-align: justify;
     }
 }
+/* Media Query - Tablet */
+@media (max-width: 768px) {
+    .main-section {
+        padding: 10px;
+
+        h2 {
+            text-align: center;
+        }
+    }
+}
+
+/* Media query para dispositivos muy pequeños */
+@media (max-width: 480px) {
+    .main-section {
+        padding: 3px;
+
+        h2 {
+            text-align: center;
+        }
+    }
+}
+
+.popular-skills {
+    color: var(--gris-carbon);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.skills-layout {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 20px;
+
+    .skills {
+        color: var(--verde-bosque-oscuro);
+        text-align: center;
+        padding: 20px;
+
+        h4 {
+            padding-bottom: 20px;
+            font-weight: bold;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        img {
+            width: 100%;
+            aspect-ratio: 16/9;
+        }
+    }
+}
+
+/* Media query para tablet */
+@media (max-width: 768px) {
+    .skills-layout {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Media query para celulares */
+@media (max-width: 480px) {
+    .skills-layout {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.profesionals {
+    h3 {
+        color: var(--gris-carbon);
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.5rem; /* Ajuste específico para móviles */
+    }
+
+    .profesionals-layout {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2rem;
+
+        ul {
+            color: var(--verde-bosque-oscuro);
+            display: grid;
+            grid-template-columns: repeat(4, 2fr);
+            grid-template-rows: repeat(2, 4fr);
+            align-items: center;
+            gap: 6rem;
+        }
+    }
+
+    /* Media query para tablet */
+    @media (max-width: 768px) {
+        .profesionals-layout {
+            flex-direction: column;
+            align-items: center;
+
+            ul {
+                grid-template-columns: repeat(2, 2fr);
+                grid-template-rows: repeat(4, auto);
+                gap: 4rem;
+            }
+        }
+    }
+
+    /* Media query para celulares */
+    @media (max-width: 468px) {
+        .profesionals-layout {
+            padding: 1rem;
+
+            ul {
+                grid-template-columns: 1fr;
+                grid-template-rows: repeat(8, auto);
+                gap: 2rem;
+            }
+        }
+    }
+}
+
+.tarjet {
+    background-color: var(--azul-profundo);
+    text-align: center;
+    gap: 2rem;
+    padding-bottom: 1vw;
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 4rem;
+        padding: 2rem;
+        justify-content: space-evenly;
+        margin-bottom: 5rem;
+        align-items: center;
+    }
+}
+
+/* Media query para tablet */
+@media (max-width: 768px) {
+    .tarjet {
+        gap: 1.5rem;
+
+        ul {
+            justify-content: center;
+            gap: 3rem;
+            padding: 1.5rem;
+        }
+    }
+}
+
+/* Media query para celulares */
+@media (max-width: 468px) {
+    .tarjet {
+        gap: 1rem;
+
+        ul {
+            flex-direction: column;
+            gap: 2rem;
+            padding: 1rem;
+            margin-bottom: 3rem;
+        }
+    }
+}
