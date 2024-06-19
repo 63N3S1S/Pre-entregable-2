@@ -1,0 +1,6 @@
+/* Declarando los mixin */
+@mixin text ($text-aling:center,$padding:1rem,$texto:$texto-negro){
+    text-align: $text-aling;
+    padding: $padding;
+    color: $texto;
+}

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* Declarando los mixin */
 * {
   padding: 0;
   margin: 0;
@@ -132,16 +133,19 @@ footer p {
   z-index: 5;
 }
 
+/* Aplicando el mixin */
 .main-section {
   background-color: #E9C46A;
 }
 .main-section h2 {
   text-align: center;
   padding: 1rem;
+  color: #000000;
 }
 .main-section p {
-  padding: 2rem;
   text-align: justify;
+  padding: 2rem;
+  color: #000000;
 }
 
 /* Media Query - Tablet */
@@ -162,11 +166,12 @@ footer p {
     text-align: center;
   }
 }
+/* Aplicando el mixin */
 .popular-skills {
   background-color: #F4A261;
-  color: #000000;
   text-align: center;
-  padding-top: 1rem;
+  padding: 1rem;
+  color: #000000;
 }
 
 .skills-layout {
@@ -177,9 +182,9 @@ footer p {
   gap: 20px;
 }
 .skills-layout .skills {
-  color: #000000;
   text-align: center;
-  padding: 20px;
+  padding: 1.2rem;
+  color: #000000;
 }
 .skills-layout .skills h4 {
   padding-bottom: 20px;
@@ -205,15 +210,16 @@ footer p {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+/* Aplicando mixin */
 .profesionals {
   background-color: #E9C46A;
   /* Media query para tablet */
   /* Media query para celulares */
 }
 .profesionals h3 {
-  color: #000000;
   text-align: center;
   padding: 1rem;
+  color: #000000;
   font-size: 1.5rem; /* Ajuste específico para móviles */
 }
 .profesionals .profesionals-layout {
