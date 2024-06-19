@@ -55,27 +55,37 @@
     }
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: justify;
-    gap: 16px;
-    color: var(--gris-carbon);
+.wrapper-container {
+    background-color: $amarillo-mostaza;
 
-    > div {
-        flex: 1 1 calc(33.333% - 32px);
-        box-sizing: border-box;
+    h2  {
+        padding-top: 1rem;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: justify;
         gap: 1rem;
+        color: $texto-gris;
+    
+        > div {
+            flex: 1 1 calc(33.333% - 32px);
+            box-sizing: border-box;
+            gap: 1rem;
+        }
+        > div p {
+            padding: 1rem;
+        }
+    }    
+    .giphy-embed {
+        width: 100%;
+        height: auto;
     }
 }
 
-.giphy-embed {
-    width: 100%;
-    height: auto;
-}
-
 .maps {
-    background-color: var(--azul-profundo);
+    background-color: $texto-azul;
     width: 100%;
     margin: 0 auto;
 

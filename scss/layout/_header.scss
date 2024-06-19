@@ -2,58 +2,93 @@
     height: $altura-header;
     background-color: $rojo-coral;
     position: relative;
-    z-index: 10;
+    z-index: 50;
+}
 
-    .menu_hamburguesa {
+.navbar {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 $padding-left-right;
+}
+
+.menu_hamburguesa {
+    display: none;
+    position: relative;
+
+    &:checked + .ul_links {
+        height: calc(100vh - $altura-header);
+    }
+}
+
+.logo {
+    color: $texto-negro;
+}
+
+.list_icon {
+    color: $negro-clasico;
+    cursor: pointer;
+}
+
+.ul_links {
+    width: 100%;
+    background-color: $rojo-coral;
+    position: absolute;
+    top: $altura-header;
+    left: 0;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    transition: all .3s;
+    z-index: 30;
+}
+
+.link {
+    font-size: 1.2em;
+    color: $texto-negro;
+    font-weight: bold;
+}
+
+.sign-in {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: all .3s;
+    padding: .2rem .7rem;
+    color: $texto-blanco;
+
+    &:hover {
+        background-color: $naranja;
+    }
+}
+
+/* Media Query - Tablet */
+@media (min-width: 768px) {
+    .labe_hamburguesa {
         display: none;
-        position: relative;
-
-        &:checked + .ul_links {
-            height: calc(100vh - $altura-header);
-        }
-    }
-
-    .logo {
-        color: $texto-negro;
-    }
-
-    .list_icon {
-        color: $texto-negro;
-        cursor: pointer;
     }
 
     .ul_links {
-        width: 100%;
-        background-color: $naranja;
-        position: absolute;
-        top: $altura-header;
-        left: 0;
-        height: 0;
-        overflow: hidden;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1rem;
-        transition: all .3s;
-        z-index: 20;
-        
-        .link {
-            font-size: 1.2em;
-            color: $texto-negro;
-            font-weight: bold;
-        }
+        position: static;
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        gap: 2rem;
+    }
 
-        .sign-in {
-            text-decoration: underline;
-            font-weight: bold;
-            font-size: 1.2rem;
-            transition: all .3s;
-            padding: .2rem .7rem;
-            color: $texto-azul;
+    .link {
+        font-size: 1.2rem;
+        transition: all .3s;
+        padding: .2rem .7rem;
 
         &:hover {
-            background-color: $gris-carbon;          }
+            background-color: $amarillo-mostaza;
         }
     }
 }

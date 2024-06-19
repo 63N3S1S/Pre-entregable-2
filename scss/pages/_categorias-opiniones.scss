@@ -1,4 +1,4 @@
-.portada2 {
+ .portada2 {
     width: 100%;
     height: auto;
     display: block;
@@ -6,64 +6,48 @@
 }
 
 .wrapper-main-section-menu4 {
-    width: 98%;
-    margin: 2rem;
-    margin: 1rem auto;
+    width: 100%;
     text-align: center;
-    background-color: var(--azul-profundo);
+    background-color: $amarillo-mostaza;
     gap: 1rem;
     padding: 1rem;
-    color: var(--rojo-vino);
+    color: $texto-negro;
 }
 
-.label-toggle {
-    display: none;
-}
-
-.label-content {
-    display: none;
-    padding: 10px;
-
-    p {
-        color: var(--gris-carbon);
-    }
-}
-
-.label-toggle:checked + label + .label-content {
-    display: block;
-}
-
-label {
+.label {
     display: block;
     padding: 10px;
     cursor: pointer;
-    color: var(--negro-clasico);
-}
+    color: $gris-carbon;
 
-/* Media query tablet */
-@media (max-width: 768px) {
-    .wrapper-main-section-menu4 {
-        max-width: 500px;
+    .label-toggle {
+        display: none;
     }
-}
 
-/* Media query celular */
-@media (max-width: 480px) {
-    .wrapper-main-section-menu4 {
-        max-width: 300px;
+    .label-content {
+        display: none;
+        padding: 10px;
+
+        p {
+            color: $texto-gris;
+        }
+    }
+
+    .label-toggle:checked + label + .label-content {
+        display: block;
     }
 }
 
 .wrapper-faq {
-    color: var(--azul-profundo);
+    background-color: $naranja;
+    color: $texto-negro;
     max-width: 600px;
     margin: 1rem auto;
     padding: 20px;
-    background-color: var(--gris-carbon);
     border-radius: 8px;
 
     h2 {
-        color: var(--negro-clasico);
+        color: $texto-negro;
     }
 
     .faq {
@@ -77,17 +61,16 @@ label {
     .faq-content {
         display: none;
         padding: 10px;
-        background-color: white;
+        background-color: $amarillo-mostaza;
+        border-radius: 8px;
+
+        p {
+            color: $gris-carbon;
+        }
     }
 
     .faq-toggle:checked + label + .faq-content {
         display: block;
-    }
-
-    label {
-        display: block;
-        padding: 10px;
-        cursor: pointer;
     }
 
     /* Media query para tablet */
@@ -102,6 +85,7 @@ label {
 }
 
 .big-box {
+    background-color: $amarillo-mostaza;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -109,7 +93,7 @@ label {
     padding: 1rem;
 
     .box {
-        background-color: var(--gris-carbon);
+        background-color: $naranja;
         border-radius: 10px;
         padding: 1rem;
         width: 30%;

@@ -1,5 +1,6 @@
 .wrapper-header-menu2 {
-    color: var(--gris-carbon);
+    background-color: $amarillo-mostaza;
+    color: $texto-negro;
     display: flex;
     gap: 1rem;
     width: 100%;
@@ -9,7 +10,6 @@
     iframe {
         width: 50%;
     }
-
     p {
         width: 50%;
         text-align: justify;
@@ -28,37 +28,6 @@
             width: 100%;
         }
     }
-
-    .wrapper-heading-menu2 {
-        h1 {
-            padding: 0.5rem;
-        }
-        p {
-            padding: 0.5rem;
-        }
-        ul {
-            gap: 0.5rem;
-            justify-content: space-around;
-            padding: 1rem;
-        }
-    }
-
-    .wrapper-card {
-        flex-wrap: wrap;
-        gap: 1rem;
-
-        .card {
-            flex: 1 1 calc(50% - 1rem);
-        }
-    }
-
-    .subscription {
-        flex-direction: column;
-
-        .subs {
-            width: 100%;
-        }
-    }
 }
 
 /* Media query celular */
@@ -72,7 +41,49 @@
             width: 100%;
         }
     }
+}
 
+.wrapper-heading-menu2 {
+    background-color: $naranja;
+    padding: 1rem;
+
+    h1 {
+        text-align: center;
+        padding: 1rem;
+    }
+    p {
+        text-align: justify;
+        padding: 2rem;
+    }
+    ul {
+        color: $texto-gris;
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem;
+    }
+}
+
+/* Media query tablet */
+@media (max-width: 768px) {
+    .wrapper-heading-menu2 {
+        h1 {
+            padding: 0.5rem;
+        }
+        p {
+            padding: 0.5rem;
+        }
+        ul {
+            gap: 0.5rem;
+            justify-content: space-around;
+            padding: 1rem;
+        }
+    }
+}
+
+/* Media query celular */
+@media (max-width: 468px) {
     .wrapper-heading-menu2 {
         h1 {
             padding: 0.2rem;
@@ -85,52 +96,13 @@
             align-items: center;
         }
     }
-
-    .wrapper-card {
-        .card {
-            flex: 1 1 100%;
-        }
-    }
-
-    .subscription {
-        flex-direction: column;
-        padding: 0.5rem;
-
-        .subs {
-            width: 100%;
-        }
-        .subs h3 {
-            padding: 0.25rem;
-        }
-    }
-}
-
-.wrapper-heading-menu2 {
-    background-color: var(--azul-profundo);
-    padding: 1rem;
-
-    h1 {
-        text-align: center;
-        padding: 1rem;
-    }
-
-    p {
-        text-align: justify;
-        padding: 2rem;
-    }
-
-    ul {
-        display: flex;
-        gap: 2rem;
-        align-items: center;
-        justify-content: space-between;
-        padding: 2rem;
-    }
 }
 
 .profesionals-menu2 {
+    background-color: $amarillo-mostaza;
+
     h2 {
-        color: var(--gris-carbon);
+        color: $gris-carbon;
         text-align: center;
         padding: 1rem;
     }
@@ -149,20 +121,17 @@
             width: 100%;
             aspect-ratio: 16/9;
         }
-
         h3 {
-            color: var(--gris-carbon);
+            color: $texto-negro;
             text-align: center;
         }
-
         p {
-            color: var(--verde-bosque-oscuro);
+            color: $texto-gris;
             text-align: justify;
         }
-
         a {
             padding: 1rem;
-            color: var(--rojo-vino);
+            color: $texto-rojo;
             text-decoration: underline;
             display: block;
             text-align: center;
@@ -170,8 +139,27 @@
     }
 }
 
+/* Media query tablet */
+@media (max-width: 768px) {
+    .wrapper-card {
+        flex-wrap: wrap;
+        gap: 1rem;
+
+        .card {
+            flex: 1 1 calc(50% - 1rem);
+        }
+    }
+}
+
+/* Media query celular */
+@media (max-width: 468px) {
+    .card {
+        flex: 1 1 100%;
+    }
+}
+
 .wrapper-subscription {
-    background: var(--azul-profundo);
+    background: $naranja;
     gap: 2rem;
     padding: 1rem;
 
@@ -179,7 +167,6 @@
         text-align: center;
         padding-bottom: 1rem;
     }
-
     .subscription {
         width: 100%;
         padding: 1rem;
@@ -189,12 +176,43 @@
 
         .subs {
             width: 100%;
-        }
 
-        .subs h3 {
-            padding: 0.5rem;
-            text-align: center;
-            color: var(--verde-bosque-oscuro);
+            h3 {
+                padding: 0.5rem;
+                text-align: center;
+                color: $texto-rojo;
+                height: 40px;
+            }
+            p   {
+                color: $texto-gris;
+            }
+        }
+    }
+}
+
+/* Media query tablet */
+@media (max-width: 768px) {
+    .subscription {
+        flex-direction: column;
+
+        .subs {
+            width: 100%;
+        }
+    }
+}
+
+/* Media query celular */
+@media (max-width: 468px) {
+    .subscription {
+        flex-direction: column;
+        padding: 0.5rem;
+
+        .subs {
+            width: 100%;
+
+            h3 {
+                padding: 0.25rem;
+            }
         }
     }
 }
