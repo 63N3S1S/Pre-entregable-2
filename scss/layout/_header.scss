@@ -1,6 +1,6 @@
 .header {
     height: $altura-header;
-    background-color: $verde-oscuro;
+    background-color: $rojo-coral;
     position: relative;
     z-index: 10;
 
@@ -24,7 +24,7 @@
 
     .ul_links {
         width: 100%;
-        background-color: $verde-oscuro;
+        background-color: $naranja;
         position: absolute;
         top: $altura-header;
         left: 0;
@@ -40,7 +40,7 @@
         
         .link {
             font-size: 1.2em;
-            color: $verde-azulado;
+            color: $texto-negro;
             font-weight: bold;
         }
 
@@ -50,7 +50,7 @@
             font-size: 1.2rem;
             transition: all .3s;
             padding: .2rem .7rem;
-            color: $rojo-coral;
+            color: $texto-azul;
 
         &:hover {
             background-color: $gris-carbon;          }

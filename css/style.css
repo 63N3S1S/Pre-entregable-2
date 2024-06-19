@@ -20,7 +20,7 @@ footer {
   height: 4rem;
   align-content: center;
   align-items: center;
-  background-color: #264653;
+  background-color: #E76F51;
 }
 footer p {
   gap: 1rem;
@@ -29,7 +29,7 @@ footer p {
 
 .header {
   height: 4rem;
-  background-color: #264653;
+  background-color: #E76F51;
   position: relative;
   z-index: 10;
 }
@@ -49,7 +49,7 @@ footer p {
 }
 .header .ul_links {
   width: 100%;
-  background-color: #264653;
+  background-color: #F4A261;
   position: absolute;
   top: 4rem;
   left: 0;
@@ -65,7 +65,7 @@ footer p {
 }
 .header .ul_links .link {
   font-size: 1.2em;
-  color: #2A9D8F;
+  color: #000000;
   font-weight: bold;
 }
 .header .ul_links .sign-in {
@@ -74,7 +74,7 @@ footer p {
   font-size: 1.2rem;
   transition: all 0.3s;
   padding: 0.2rem 0.7rem;
-  color: #E76F51;
+  color: #1E90FF;
 }
 .header .ul_links .sign-in:hover {
   background-color: #333333;
@@ -106,7 +106,7 @@ footer p {
 }
 
 .main-section {
-  background-color: var(--azul-profundo);
+  background-color: #E9C46A;
 }
 .main-section h2 {
   text-align: center;
@@ -136,7 +136,8 @@ footer p {
   }
 }
 .popular-skills {
-  color: var(--gris-carbon);
+  background-color: #F4A261;
+  color: #000000;
   text-align: center;
   padding-top: 1rem;
 }
@@ -149,7 +150,7 @@ footer p {
   gap: 20px;
 }
 .skills-layout .skills {
-  color: var(--verde-bosque-oscuro);
+  color: #000000;
   text-align: center;
   padding: 20px;
 }
@@ -178,11 +179,12 @@ footer p {
   }
 }
 .profesionals {
+  background-color: #E9C46A;
   /* Media query para tablet */
   /* Media query para celulares */
 }
 .profesionals h3 {
-  color: var(--gris-carbon);
+  color: #000000;
   text-align: center;
   padding: 1rem;
   font-size: 1.5rem; /* Ajuste específico para móviles */
@@ -193,7 +195,6 @@ footer p {
   padding: 2rem;
 }
 .profesionals .profesionals-layout ul {
-  color: var(--verde-bosque-oscuro);
   display: grid;
   grid-template-columns: repeat(4, 2fr);
   grid-template-rows: repeat(2, 4fr);
@@ -223,7 +224,7 @@ footer p {
 }
 
 .tarjet {
-  background-color: var(--azul-profundo);
+  background-color: #F4A261;
   text-align: center;
   gap: 2rem;
   padding-bottom: 1vw;
@@ -236,6 +237,7 @@ footer p {
   justify-content: space-evenly;
   margin-bottom: 5rem;
   align-items: center;
+  color: #666666;
 }
 
 /* Media query para tablet */

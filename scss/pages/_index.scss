@@ -17,7 +17,7 @@
 }
 
 .main-section {
-    background-color: var(--azul-profundo);
+    background-color: $amarillo-mostaza;
 
     h2 {
         text-align: center;
@@ -53,7 +53,8 @@
 }
 
 .popular-skills {
-    color: var(--gris-carbon);
+    background-color: $naranja;
+    color: $texto-negro;
     text-align: center;
     padding-top: 1rem;
 }
@@ -66,7 +67,7 @@
     gap: 20px;
 
     .skills {
-        color: var(--verde-bosque-oscuro);
+        color: $texto-negro;
         text-align: center;
         padding: 20px;
 
@@ -101,8 +102,9 @@
 }
 
 .profesionals {
+    background-color: $amarillo-mostaza;
     h3 {
-        color: var(--gris-carbon);
+        color: $texto-negro;
         text-align: center;
         padding: 1rem;
         font-size: 1.5rem; /* Ajuste específico para móviles */
@@ -114,7 +116,6 @@
         padding: 2rem;
 
         ul {
-            color: var(--verde-bosque-oscuro);
             display: grid;
             grid-template-columns: repeat(4, 2fr);
             grid-template-rows: repeat(2, 4fr);
@@ -152,7 +153,7 @@
 }
 
 .tarjet {
-    background-color: var(--azul-profundo);
+    background-color: $naranja;
     text-align: center;
     gap: 2rem;
     padding-bottom: 1vw;
@@ -165,6 +166,7 @@
         justify-content: space-evenly;
         margin-bottom: 5rem;
         align-items: center;
+        color: $texto-gris;
     }
 }
 
