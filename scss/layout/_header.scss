@@ -14,11 +14,11 @@
     }
 
     .logo {
-        color: $negro-clasico;
+        color: $texto-negro;
     }
 
     .list_icon {
-        color: $negro-clasico;
+        color: $texto-negro;
         cursor: pointer;
     }
 
@@ -53,7 +53,7 @@
             color: $rojo-coral;
 
         &:hover {
-            background-color: $verde-azulado;          }
+            background-color: $gris-carbon;          }
         }
     }
 }
