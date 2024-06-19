@@ -21,11 +21,11 @@
     background-color: $amarillo-mostaza;
 
     h2 {
-        @include text;
+        @include text3properties;
     }
 
     p {
-        @include text (justify,2rem);
+        @include text3properties(justify,2rem);
     }
 }
 
@@ -54,7 +54,7 @@
 /* Aplicando el mixin */
 .popular-skills {
     background-color: $naranja;
-    @include text;
+    @include text3properties;
 }
 
 .skills-layout {
@@ -65,7 +65,7 @@
     gap: 20px;
 
     .skills {
-        @include text (center, 1.2rem);
+        @include text3properties(center, 1.2rem);
 
         h4 {
             padding-bottom: 20px;
@@ -101,7 +101,7 @@
 .profesionals {
     background-color: $amarillo-mostaza;
     h3 {
-        @include text;
+        @include text3properties;
         font-size: 1.5rem; /* Ajuste específico para móviles */
     }
 

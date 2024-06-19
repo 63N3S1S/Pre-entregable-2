@@ -1,6 +1,6 @@
 .login-wrap {
     font-family: Arial, sans-serif;
-    background-color: var(--gris-carbon);
+    background-color: $texto-gris;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@
 }
 
 .login-form, .register-form {
-    background-color: var(--negro-clasico);
+    background-color: $gris-carbon;
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -37,10 +37,10 @@
     width: 300px;
 }
 
+/* Se aplico mixin */
 h2 {
+    @include text2properties(center,$verde-azulado);
     margin-bottom: 20px;
-    text-align: center;
-    color: var(--gris-carbon);
 }
 
 .form-group {

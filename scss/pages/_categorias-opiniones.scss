@@ -5,13 +5,12 @@
     margin: 0 auto;
 }
 
+/* Se aplico mixin */
 .wrapper-main-section-menu4 {
+    @include text3properties;
     width: 100%;
-    text-align: center;
     background-color: $amarillo-mostaza;
     gap: 1rem;
-    padding: 1rem;
-    color: $texto-negro;
 }
 
 .label {
@@ -84,6 +83,7 @@
     }
 }
 
+/* Se aplico mixin */
 .big-box {
     background-color: $amarillo-mostaza;
     display: flex;
@@ -93,12 +93,11 @@
     padding: 1rem;
 
     .box {
+        @include text3properties;
         background-color: $naranja;
         border-radius: 10px;
-        padding: 1rem;
         width: 30%;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        text-align: center;
 
         img {
             max-width: 100%;

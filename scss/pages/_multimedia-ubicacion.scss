@@ -62,12 +62,12 @@
         padding-top: 1rem;
     }
 
+/* Se aplico mixin */
     .container {
+        @include text2properties(justify,$texto-gris);
         display: flex;
         flex-wrap: wrap;
-        text-align: justify;
         gap: 1rem;
-        color: $texto-gris;
     
         > div {
             flex: 1 1 calc(33.333% - 32px);

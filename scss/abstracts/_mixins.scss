@@ -1,6 +1,11 @@
 /* Declarando los mixin */
-@mixin text ($text-aling:center,$padding:1rem,$texto:$texto-negro){
+@mixin text3properties ($text-aling:center,$padding:1rem,$texto:$texto-negro){
     text-align: $text-aling;
     padding: $padding;
+    color: $texto;
+}
+
+@mixin text2properties ($text-aling:center,$texto:$texto-negro){
+    text-align: $text-aling;
     color: $texto;
 }

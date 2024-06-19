@@ -1,11 +1,11 @@
+/* Se aplico mixin */
 .wrapper-header-menu2 {
+    @include text3properties;
     background-color: $amarillo-mostaza;
-    color: $texto-negro;
     display: flex;
     gap: 1rem;
     width: 100%;
     height: auto;
-    padding: 1rem;
 
     iframe {
         width: 50%;
@@ -43,17 +43,16 @@
     }
 }
 
+/* Se aplico mixin */
 .wrapper-heading-menu2 {
     background-color: $naranja;
     padding: 1rem;
 
     h1 {
-        text-align: center;
-        padding: 1rem;
+        @include text3properties;
     }
     p {
-        text-align: justify;
-        padding: 2rem;
+        @include text3properties(justify,2rem,$gris-carbon);    
     }
     ul {
         color: $texto-gris;
@@ -98,16 +97,16 @@
     }
 }
 
+/* Se aplico mixin */
 .profesionals-menu2 {
     background-color: $amarillo-mostaza;
 
     h2 {
-        color: $gris-carbon;
-        text-align: center;
-        padding: 1rem;
+        @include text2properties(center,$gris-carbon);
     }
 }
 
+/* Se aplico mixin */
 .wrapper-card {
     display: flex;
     width: 100%;
@@ -122,19 +121,15 @@
             aspect-ratio: 16/9;
         }
         h3 {
-            color: $texto-negro;
-            text-align: center;
+            @include text2properties;
         }
         p {
-            color: $texto-gris;
-            text-align: justify;
+            @include text2properties(justify,$texto-gris);
         }
         a {
-            padding: 1rem;
-            color: $texto-rojo;
+            @include text3properties(center,1rem,$texto-rojo);
             text-decoration: underline;
             display: block;
-            text-align: center;
         }
     }
 }
@@ -158,6 +153,7 @@
     }
 }
 
+/* Se aplico mixin */
 .wrapper-subscription {
     background: $naranja;
     gap: 2rem;
@@ -178,9 +174,7 @@
             width: 100%;
 
             h3 {
-                padding: 0.5rem;
-                text-align: center;
-                color: $texto-rojo;
+                @include text3properties(center,0.5rem,$texto-rojo);
                 height: 40px;
             }
             p   {
