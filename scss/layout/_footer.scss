@@ -6,6 +6,8 @@ footer {
     align-content: center;
     align-items: center;
     background-color: $rojo-coral;
+    padding: 0 1rem;
+    @include box-shadow($rojo-coral, 4px);
 
     p {
         gap: 1rem;

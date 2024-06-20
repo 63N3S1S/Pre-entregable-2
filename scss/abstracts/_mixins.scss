@@ -22,7 +22,10 @@
     }
 }
 
-@mixin box-shadow-mixin($shadow-color, $shadow-size, $border-radius: 0) {
+@mixin box-shadow($shadow-color, $shadow-size) {
     box-shadow: 0 0 $shadow-size $shadow-size $shadow-color;
-    border-radius: $border-radius;
+}
+
+@mixin transition-all($duration: 0.8s, $timing: ease) {
+    transition: all $duration $timing;
 }

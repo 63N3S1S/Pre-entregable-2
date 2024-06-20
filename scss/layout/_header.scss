@@ -78,13 +78,11 @@
     font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease;
 
-    @include box-shadow-mixin(rgba(0, 0, 0, 0.3), 5px, 7px);
-
     &:hover {
         background-color: $amarillo-mostaza;
         color: $texto-blanco;
         border-radius: 7px;
-        gap: 10px;
+        gap: 5px;
     }
 }
 
@@ -120,7 +118,7 @@
         font-size: 1.2rem;
         transition: background-color 0.3s ease, color 0.3s ease; /* Transición de color */
         padding: .2rem .7rem;
-
+        
         &:hover {
             background-color: $amarillo-mostaza;
             color: $texto-blanco;
