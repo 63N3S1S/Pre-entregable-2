@@ -27,6 +27,27 @@
         gap: 2rem;
         justify-content: space-around;
         color: $texto-gris;
+    
+        @include maxwidth-768px{
+            gap: 1rem;
+            display: grid;
+            justify-content: space-evenly;
+        }
+
+        @include maxwidth-480px {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    @include maxwidth-768px{
+        gap: 1rem;
+        padding: 0.5rem;
+    }
+
+    @include maxwidth-480px {
+        gap: 0.5rem;
     }
 }
 
@@ -37,7 +58,6 @@
     gap: 0.7rem;
     align-content: center;
 
-/* Se aplico mixin */    
     h2 {
         @include text3properties;
     }
@@ -46,22 +66,8 @@
         color: $texto-negro;
         padding: 0.5rem;
     }
-}
 
-/* Media query tablet */
-@media (max-width: 768px) {
-    .wrapper-advantages {
-        gap: 1rem;
-        padding: 0.5rem;
-    }
-
-    .advantages ul {
-        gap: 1rem;
-        display: grid;
-        justify-content: space-evenly;
-    }
-
-    .wrapper-heading {
+    @include maxwidth-768px {
         padding: 0.5rem;
 
         h2  {
@@ -72,21 +78,8 @@
             padding: 0.5rem;
         }
     }
-}
 
-/* Media query celular */
-@media (max-width: 468px) {
-    .wrapper-advantages {
-        gap: 0.5rem;
-    }
-
-    .advantages ul {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .wrapper-heading {
+    @include maxwidth-480px {
         article {
             display: block;
         }
