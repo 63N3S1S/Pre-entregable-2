@@ -1,8 +1,9 @@
-##### Este proyecto es una plataforma web diseñada para facilitar el intercambio de habilidades de manera colaborativa. Los usuarios pueden buscar y ofrecer servicios en diversas áreas, como programación, diseño gráfico, idiomas, cocina, yoga, medicina, y más.
+#####Plataforma Colaborativa para Intercambio de Habilidades
 
-##### Ademas permite a los usuarios aprender nuevas habilidades de forma colaborativa. Facilitando la conexión entre profesionales y usuarios que buscan sus servicios.
+Este proyecto es una plataforma web diseñada para facilitar el intercambio colaborativo de habilidades. Los usuarios pueden buscar y ofrecer una amplia gama de servicios en áreas como programación, diseño gráfico, idiomas, cocina, yoga, medicina y más.
 
-##### A su vez ofrece una plataforma accesible y fácil de usar para encontrar y ofrecer servicios, proporcionando un espacio para que los usuarios puedan valorar y comentar sobre sus experiencias, ayudando a mantener un alto nivel de calidad en los servicios ofrecidos.
+Además de conectar a profesionales con usuarios interesados en sus servicios, la plataforma fomenta el aprendizaje colaborativo. Proporciona una interfaz accesible y fácil de usar para encontrar y ofrecer servicios, incluyendo un sistema de valoración y comentarios que garantiza altos estándares de calidad en las experiencias compartidas.
 
-**Pre-entregable-2**
-**Repositorio**   https://github.com/MaxGonzalezRoy/Pre-entregable-2.git
+Este repositorio corresponde a la tercera entrega del proyecto, donde se aplicaron las consignas requeridas y se implementaron correcciones sugeridas para mejorar la funcionalidad y la experiencia del usuario.
+
+#####Repositorio: Pre-entregable-3 https://github.com/MaxGonzalezRoy/Pre-entregable-3.git
