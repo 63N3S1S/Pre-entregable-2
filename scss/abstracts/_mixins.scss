@@ -21,3 +21,8 @@
     @content;
     }
 }
+
+@mixin box-shadow-mixin($shadow-color, $shadow-size, $border-radius: 0) {
+    box-shadow: 0 0 $shadow-size $shadow-size $shadow-color;
+    border-radius: $border-radius;
+}

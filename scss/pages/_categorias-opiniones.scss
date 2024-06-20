@@ -1,11 +1,10 @@
- .portada2 {
+.portada2 {
     width: 100%;
     height: auto;
     display: block;
     margin: 0 auto;
 }
 
-/* Se aplico mixin */
 .wrapper-main-section-menu4 {
     @include text3properties;
     width: 100%;
@@ -72,18 +71,15 @@
         display: block;
     }
 
-    /* Media query para tablet */
     @media (max-width: 768px) {
         max-width: 500px;
     }
 
-    /* Media query para celular */
     @media (max-width: 480px) {
         max-width: 300px;
     }
 }
 
-/* Se aplico mixin */
 .big-box {
     background-color: $amarillo-mostaza;
     display: flex;
@@ -109,12 +105,10 @@
             color: gold;
         }
 
-        /* Media query tablet */
         @media (max-width: 768px) {
             width: 45%;
         }
 
-        /* Media query celular */
         @media (max-width: 468px) {
             width: 100%;
         }

@@ -16,7 +16,6 @@
     }
 }
 
-/* Media query tablet */
 @media (max-width: 768px) {
     .wrapper-video {
         padding-bottom: 75%; /* Aspect ratio 4:3 */
@@ -36,7 +35,6 @@
     }
 }
 
-/* Media query celular */
 @media (max-width: 468px) {
     .wrapper-video {
         padding-bottom: 100%; /* Aspect ratio 1:1 */
@@ -62,7 +60,6 @@
         padding-top: 1rem;
     }
 
-/* Se aplico mixin */
     .container {
         @include text2properties(justify,$texto-gris);
         display: flex;

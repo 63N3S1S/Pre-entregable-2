@@ -1,4 +1,15 @@
 @charset "UTF-8";
+@keyframes rotateIcon {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(190deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
 /* Declarando los mixin */
 * {
   padding: 0;
@@ -33,6 +44,7 @@ footer p {
   background-color: #E76F51;
   position: relative;
   z-index: 50;
+  transition: background-color 1s ease-in-out;
 }
 
 .navbar {
@@ -42,6 +54,21 @@ footer p {
   align-items: center;
   flex-wrap: wrap;
   padding: 0 2rem;
+  position: relative;
+}
+.navbar::before, .navbar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);
+  z-index: -1;
+}
+.navbar::after {
+  filter: blur(8px);
 }
 
 .menu_hamburguesa {
@@ -52,13 +79,17 @@ footer p {
   height: calc(100vh - 4rem);
 }
 
-.logo {
-  color: #000000;
-}
-
 .list_icon {
   color: #000000;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo {
+  color: #000000;
+  transform: rotate(360deg);
+  animation: rotateIcon 6s ease-in-out;
+  text-shadow: 2px 2px 2px #666666;
 }
 
 .ul_links {
@@ -74,7 +105,7 @@ footer p {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  transition: all 0.3s;
+  transition: height 0.5s ease-in-out;
   z-index: 30;
 }
 
@@ -82,21 +113,31 @@ footer p {
   font-size: 1.2em;
   color: #000000;
   font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+}
+.link:hover {
+  background-color: #E9C46A;
+  color: #FFFFFF;
+  border-radius: 7px;
+  gap: 10px;
 }
 
 .sign-in {
   text-decoration: underline;
   font-weight: bold;
   font-size: 1.2rem;
-  transition: all 0.3s;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transición de color y fondo */
   padding: 0.2rem 0.7rem;
   color: #FFFFFF;
 }
 .sign-in:hover {
   background-color: #F4A261;
+  color: #000000;
+  border-radius: 7px;
 }
 
-/* Media Query - Tablet */
 @media (min-width: 768px) {
   .labe_hamburguesa {
     display: none;
@@ -110,11 +151,12 @@ footer p {
   }
   .link {
     font-size: 1.2rem;
-    transition: all 0.3s;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición de color */
     padding: 0.2rem 0.7rem;
   }
   .link:hover {
     background-color: #E9C46A;
+    color: #FFFFFF;
   }
 }
 .wrapper-front-page {
@@ -571,7 +613,6 @@ footer p {
   border: 0;
 }
 
-/* Media query tablet */
 @media (max-width: 768px) {
   .wrapper-video {
     padding-bottom: 75%; /* Aspect ratio 4:3 */
@@ -587,7 +628,6 @@ footer p {
     padding: 0 16px;
   }
 }
-/* Media query celular */
 @media (max-width: 468px) {
   .wrapper-video {
     padding-bottom: 100%; /* Aspect ratio 1:1 */
@@ -604,7 +644,6 @@ footer p {
 }
 .wrapper-container {
   background-color: #E9C46A;
-  /* Se aplico mixin */
 }
 .wrapper-container h2 {
   padding-top: 1rem;
@@ -657,7 +696,6 @@ footer p {
   margin: 0 auto;
 }
 
-/* Se aplico mixin */
 .wrapper-main-section-menu4 {
   text-align: center;
   padding: 1rem;
@@ -694,8 +732,6 @@ footer p {
   margin: 1rem auto;
   padding: 20px;
   border-radius: 8px;
-  /* Media query para tablet */
-  /* Media query para celular */
 }
 .wrapper-faq h2 {
   color: #000000;
@@ -729,7 +765,6 @@ footer p {
   }
 }
 
-/* Se aplico mixin */
 .big-box {
   background-color: #E9C46A;
   display: flex;
@@ -746,8 +781,6 @@ footer p {
   border-radius: 10px;
   width: 30%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  /* Media query tablet */
-  /* Media query celular */
 }
 .big-box .box img {
   max-width: 100%;
@@ -806,7 +839,6 @@ footer p {
   width: 300px;
 }
 
-/* Se aplico mixin */
 h2 {
   text-align: center;
   color: #2A9D8F;

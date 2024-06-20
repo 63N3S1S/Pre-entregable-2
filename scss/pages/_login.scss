@@ -37,7 +37,6 @@
     width: 300px;
 }
 
-/* Se aplico mixin */
 h2 {
     @include text2properties(center,$verde-azulado);
     margin-bottom: 20px;
