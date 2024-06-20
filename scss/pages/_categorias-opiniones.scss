@@ -10,13 +10,45 @@
     width: 100%;
     background-color: $amarillo-mostaza;
     gap: 1rem;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeIn 1s ease-in-out;
+
+    &:hover {
+    box-shadow: 0 0 8px 8px #F4A261, 0 0 8px 8px #F4A261, 0 0 8px 8px #F4A261, 0 0 8px 8px #F4A261;
+    }
+
+    @include box-shadow-matador ($amarillo-mostaza, 4px);
+
+    h1  {
+        text-decoration: underline;
+        transition: color 0.3s ease, transform 0.3s ease;
+
+        &:hover {
+            color: #264653;
+            transform: scale(1.1);
+        }
+    }
 }
 
 .label {
     display: block;
     padding: 10px;
-    cursor: pointer;
     color: $gris-carbon;
+    gap: 1rem;
+
+    label   {
+        cursor: pointer;
+
+        &:hover {
+            background-color: $amarillo-mostaza;
+            color: #000000;
+            align-items: center;
+            
+            @include box-shadow-matador ($naranja, 4px);
+            
+            transform: scale(1.05);
+        }
+    }
 
     .label-toggle {
         display: none;
@@ -58,7 +90,7 @@
 
     .faq-content {
         display: none;
-        padding: 10px;
+        padding: 1rem;
         background-color: $amarillo-mostaza;
         border-radius: 8px;
 
@@ -87,6 +119,8 @@
     flex-wrap: wrap;
     gap: 1rem;
     padding: 1rem;
+
+    @include box-shadow-matador ($amarillo-mostaza, 4px);
 
     .box {
         @include text3properties;

@@ -55,10 +55,12 @@
 
 .wrapper-container {
     background-color: $amarillo-mostaza;
-
+    padding: 2rem;
     h2  {
         padding-top: 1rem;
     }
+
+    @include box-shadow ($amarillo-mostaza, 4px);
 
     .container {
         @include text2properties(justify,$texto-gris);
@@ -85,6 +87,8 @@
     background-color: $texto-azul;
     width: 100%;
     margin: 0 auto;
+
+    @include box-shadow-matador ($texto-azul, 4px);
 
     section {
         display: flex;
