@@ -9,3 +9,15 @@
     text-align: $text-aling;
     color: $texto;
 }
+
+@mixin maxwidth-768px {
+    @media (max-width: 768px) {
+    @content;
+    }
+}
+
+@mixin maxwidth-480px {
+    @media (max-width: 480px) {
+    @content;
+    }
+}

@@ -133,7 +133,6 @@ footer p {
   z-index: 5;
 }
 
-/* Aplicando el mixin */
 .main-section {
   background-color: #E9C46A;
 }
@@ -147,8 +146,6 @@ footer p {
   padding: 2rem;
   color: #000000;
 }
-
-/* Media Query - Tablet */
 @media (max-width: 768px) {
   .main-section {
     padding: 10px;
@@ -157,7 +154,6 @@ footer p {
     text-align: center;
   }
 }
-/* Media query para dispositivos muy pequeños */
 @media (max-width: 480px) {
   .main-section {
     padding: 3px;
@@ -166,7 +162,7 @@ footer p {
     text-align: center;
   }
 }
-/* Aplicando el mixin */
+
 .popular-skills {
   background-color: #F4A261;
   text-align: center;
@@ -197,24 +193,19 @@ footer p {
   width: 100%;
   aspect-ratio: 16/9;
 }
-
-/* Media query para tablet */
 @media (max-width: 768px) {
   .skills-layout {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-/* Media query para celulares */
 @media (max-width: 480px) {
   .skills-layout {
     grid-template-columns: repeat(1, 1fr);
   }
 }
-/* Aplicando mixin */
+
 .profesionals {
   background-color: #E9C46A;
-  /* Media query para tablet */
-  /* Media query para celulares */
 }
 .profesionals h3 {
   text-align: center;
@@ -245,7 +236,7 @@ footer p {
     gap: 4rem;
   }
 }
-@media (max-width: 468px) {
+@media (max-width: 480px) {
   .profesionals .profesionals-layout {
     padding: 1rem;
   }
@@ -272,8 +263,6 @@ footer p {
   align-items: center;
   color: #666666;
 }
-
-/* Media query para tablet */
 @media (max-width: 768px) {
   .tarjet {
     gap: 1.5rem;
@@ -284,8 +273,7 @@ footer p {
     padding: 1.5rem;
   }
 }
-/* Media query para celulares */
-@media (max-width: 468px) {
+@media (max-width: 480px) {
   .tarjet {
     gap: 1rem;
   }
@@ -296,6 +284,7 @@ footer p {
     margin-bottom: 3rem;
   }
 }
+
 .wrapper-front-page-menu1 {
   display: flex;
   width: 100%;
