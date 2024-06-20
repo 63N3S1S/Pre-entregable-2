@@ -1,4 +1,3 @@
-/* Se aplico mixin */
 .wrapper-header-menu2 {
     @include text3properties;
     background-color: $amarillo-mostaza;
@@ -14,36 +13,27 @@
         width: 50%;
         text-align: justify;
     }
-}
 
-/* Media query tablet */
-@media (max-width: 768px) {
-    .wrapper-header-menu2 {
+    @include maxwidth-480px {
         flex-wrap: wrap;
         padding: 2rem;
         gap: 1rem;
 
-        iframe,
-        p {
+        iframe, p {
             width: 100%;
         }
     }
-}
 
-/* Media query celular */
-@media (max-width: 468px) {
-    .wrapper-header-menu2 {
+    @include maxwidth-480px {
         padding: 0.5rem;
         gap: 0.5rem;
 
-        iframe,
-        p {
+        iframe,p {
             width: 100%;
         }
     }
 }
 
-/* Se aplico mixin */
 .wrapper-heading-menu2 {
     background-color: $naranja;
     padding: 1rem;
@@ -62,12 +52,9 @@
         justify-content: space-between;
         padding: 2rem;
     }
-}
 
-/* Media query tablet */
-@media (max-width: 768px) {
-    .wrapper-heading-menu2 {
-        h1 {
+    @include maxwidth-768px {
+        h1,p {
             padding: 0.5rem;
         }
         p {
@@ -79,15 +66,9 @@
             padding: 1rem;
         }
     }
-}
 
-/* Media query celular */
-@media (max-width: 468px) {
-    .wrapper-heading-menu2 {
-        h1 {
-            padding: 0.2rem;
-        }
-        p {
+    @include maxwidth-480px {
+        h1,p {
             padding: 0.2rem;
         }
         ul {
@@ -97,7 +78,6 @@
     }
 }
 
-/* Se aplico mixin */
 .profesionals-menu2 {
     background-color: $amarillo-mostaza;
 
@@ -106,7 +86,6 @@
     }
 }
 
-/* Se aplico mixin */
 .wrapper-card {
     display: flex;
     width: 100%;
@@ -131,29 +110,22 @@
             text-decoration: underline;
             display: block;
         }
-    }
-}
-
-/* Media query tablet */
-@media (max-width: 768px) {
-    .wrapper-card {
-        flex-wrap: wrap;
-        gap: 1rem;
-
-        .card {
-            flex: 1 1 calc(50% - 1rem);
-        }
-    }
-}
-
-/* Media query celular */
-@media (max-width: 468px) {
-    .card {
+    
+    @include maxwidth-480px {
         flex: 1 1 100%;
     }
+    }
+
+    @include maxwidth-768px {
+        flex-wrap: wrap;
+        gap: 1rem;
+    
+            .card {
+                flex: 1 1 calc(50% - 1rem);
+            }
+    }
 }
 
-/* Se aplico mixin */
 .wrapper-subscription {
     background: $naranja;
     gap: 2rem;
@@ -181,23 +153,16 @@
                 color: $texto-gris;
             }
         }
-    }
-}
 
-/* Media query tablet */
-@media (max-width: 768px) {
-    .subscription {
+    @include maxwidth-768px {
         flex-direction: column;
 
         .subs {
             width: 100%;
         }
     }
-}
 
-/* Media query celular */
-@media (max-width: 468px) {
-    .subscription {
+    @include maxwidth-480px {
         flex-direction: column;
         padding: 0.5rem;
 
@@ -208,5 +173,6 @@
                 padding: 0.25rem;
             }
         }
+    }
     }
 }
