@@ -52,6 +52,8 @@
     background-color: $naranja;
     @include text3properties;
     @include transition-all (0.5s);
+
+    @include box-shadow ($naranja,4px);
 }
 
 .skills-layout {
@@ -95,6 +97,8 @@
 .profesionals {
     background-color: $amarillo-mostaza;
     @include transition-all(0.3s);
+
+    @include box-shadow ($amarillo-mostaza, 4px);
 
     h3 {
         @include text3properties;
@@ -161,6 +165,8 @@
         color: $texto-gris;
         @include transition-all;
     }
+
+    @include box-shadow ($naranja, 4px);
 
     @include maxwidth-768px {
         gap: 1.5rem;

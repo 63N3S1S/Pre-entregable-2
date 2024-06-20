@@ -6,12 +6,17 @@
     width: 100%;
     height: auto;
 
+    @include box-shadow ($amarillo-mostaza, 4px);
+
     iframe {
-        width: 50%;
+        width: 70%;
+        height: 40vh;
     }
     p {
-        width: 50%;
+        width: 30%;
         text-align: justify;
+        align-content: center;
+        padding: 1rem 0.5rem;
     }
 
     @include maxwidth-480px {
@@ -37,6 +42,8 @@
 .wrapper-heading-menu2 {
     background-color: $naranja;
     padding: 1rem;
+
+    @include box-shadow ($naranja, 4px);
 
     h1 {
         @include text3properties;
@@ -84,6 +91,8 @@
     h2 {
         @include text2properties(center,$gris-carbon);
     }
+
+    @include box-shadow ($amarillo-mostaza, 4px);
 }
 
 .wrapper-card {
@@ -135,6 +144,9 @@
         text-align: center;
         padding-bottom: 1rem;
     }
+
+    @include box-shadow ($naranja, 4px);
+
     .subscription {
         width: 100%;
         padding: 1rem;

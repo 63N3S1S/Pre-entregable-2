@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>SkillSwap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="link rel="preconnect href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,8 +56,8 @@
     <main>        
         <div class="wrapper-front-page-menu1">
             <!-- Falta cambiar las img por las definitivas -->
-            <img src="../img/idiomas.avif" class="img-left" alt="Imagen de idiomas">
-            <img src="../img/diseño-grafico.avif" class="img-right" alt="Imagen de diseño grafico">
+            <img data-aos="fade-right" data-aos-anchor="#example-anchor" data-aos-duration="500" src="../img/idiomas.avif" class="img-left" alt="Imagen de idiomas">
+            <img data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-duration="500" src="../img/diseño-grafico.avif" class="img-right" alt="Imagen de diseño grafico">
         </div>
         <div class="wrapper-advantages">
             <h1>Nuestras Ventajas</h1>
@@ -84,5 +85,9 @@
         <p>SkillSwap</p>
         <p>&copy; 2024 SkillSwap</p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </bod>
 </html>
