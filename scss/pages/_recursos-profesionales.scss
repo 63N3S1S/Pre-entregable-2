@@ -1,4 +1,4 @@
-.wrapper-header-menu2 {
+.menu2-header {
     @include text3properties;
     background-color: $amarillo-mostaza;
     display: flex;
@@ -39,7 +39,7 @@
     }
 }
 
-.wrapper-heading-menu2 {
+.topics {
     background-color: $naranja;
     padding: 1rem;
 
@@ -85,7 +85,7 @@
     }
 }
 
-.profesionals-menu2 {
+.profesionals2 {
     background-color: $amarillo-mostaza;
 
     h2 {
@@ -95,11 +95,11 @@
     @include box-shadow ($amarillo-mostaza, 4px);
 }
 
-.wrapper-card {
+.profesionals2-card {
     display: flex;
     width: 100%;
 
-    .card {
+    .profesionals2-card_card {
         padding: 1rem;
         flex: 1 1 calc(33.333% - 1rem);
         box-sizing: border-box;
@@ -135,7 +135,7 @@
     }
 }
 
-.wrapper-subscription {
+.subscription {
     background: $naranja;
     gap: 2rem;
     padding: 1rem;
@@ -147,14 +147,14 @@
 
     @include box-shadow ($naranja, 4px);
 
-    .subscription {
+    .subscription-div {
         width: 100%;
         padding: 1rem;
         display: flex;
         text-align: center;
         gap: 1rem;
 
-        .subs {
+        .subscription-div_offer {
             width: 100%;
 
             h3 {
@@ -169,7 +169,7 @@
     @include maxwidth-768px {
         flex-direction: column;
 
-        .subs {
+        .subscription-div_offer {
             width: 100%;
         }
     }
@@ -178,7 +178,7 @@
         flex-direction: column;
         padding: 0.5rem;
 
-        .subs {
+        .subscription-div_offer {
             width: 100%;
 
             h3 {
@@ -187,4 +187,4 @@
         }
     }
     }
-}
+}   
