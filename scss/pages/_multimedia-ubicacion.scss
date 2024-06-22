@@ -1,4 +1,4 @@
-.wrapper-video {
+.menu3-video {
     position: relative;
     padding-bottom: 56.25%; /* Aspect ratio 16:9 */
     height: 0;
@@ -17,11 +17,11 @@
 }
 
 @media (max-width: 768px) {
-    .wrapper-video {
+    .menu3-video {
         padding-bottom: 75%; /* Aspect ratio 4:3 */
     }
 
-    .container > div {
+    .menu3-container > div {
         flex: 1 1 calc(50% - 32px);
         gap: 0.2rem;
     }
@@ -36,11 +36,11 @@
 }
 
 @media (max-width: 468px) {
-    .wrapper-video {
+    .menu3-video {
         padding-bottom: 100%; /* Aspect ratio 1:1 */
     }
 
-    .container > div {
+    .menu3-container > div {
         flex: 1 1 100%;
     }
 
@@ -53,7 +53,7 @@
     }
 }
 
-.wrapper-container {
+.menu3-container {
     background-color: $amarillo-mostaza;
     padding: 2rem;
     h2  {
@@ -62,7 +62,7 @@
 
     @include box-shadow ($amarillo-mostaza, 4px);
 
-    .container {
+    .menu3-container_container {
         @include text2properties(justify,$texto-gris);
         display: flex;
         flex-wrap: wrap;
