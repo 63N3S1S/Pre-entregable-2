@@ -1,4 +1,4 @@
-.wrapper-front-page-menu1 {
+.menu1-header {
     display: flex;
     width: 100%;
     height: auto;
@@ -8,7 +8,7 @@
     }
 }
 
-.wrapper-advantages {
+.advantages {
     background-color: $amarillo-mostaza;
     color: $texto-negro;
     display: grid;
@@ -20,7 +20,7 @@
         text-align: center;
     }
 
-    .advantages ul {
+    .advantages-list ul {
         display: grid;
         grid-template-columns: repeat(2, auto);
         grid-template-rows: repeat(4, auto);
@@ -53,7 +53,7 @@
     }
 }
 
-.wrapper-heading{
+.mision {
     background-color: $naranja;
     display: grid;
     padding: 0.7rem;

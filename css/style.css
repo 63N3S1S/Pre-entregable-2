@@ -357,16 +357,16 @@ footer p {
   }
 }
 
-.wrapper-front-page-menu1 {
+.menu1-header {
   display: flex;
   width: 100%;
   height: auto;
 }
-.wrapper-front-page-menu1 img {
+.menu1-header img {
   width: 50%;
 }
 
-.wrapper-advantages {
+.advantages {
   background-color: #E9C46A;
   color: #000000;
   display: grid;
@@ -374,10 +374,10 @@ footer p {
   padding: 1rem;
   align-content: center;
 }
-.wrapper-advantages h1 {
+.advantages h1 {
   text-align: center;
 }
-.wrapper-advantages .advantages ul {
+.advantages .advantages-list ul {
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-template-rows: repeat(4, auto);
@@ -387,32 +387,32 @@ footer p {
   box-shadow: 0 0 4px 4px #E9C46A;
 }
 @media (max-width: 768px) {
-  .wrapper-advantages .advantages ul {
+  .advantages .advantages-list ul {
     gap: 1rem;
     display: grid;
     justify-content: space-evenly;
   }
 }
 @media (max-width: 480px) {
-  .wrapper-advantages .advantages ul {
+  .advantages .advantages-list ul {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
 @media (max-width: 768px) {
-  .wrapper-advantages {
+  .advantages {
     gap: 1rem;
     padding: 0.5rem;
   }
 }
 @media (max-width: 480px) {
-  .wrapper-advantages {
+  .advantages {
     gap: 0.5rem;
   }
 }
 
-.wrapper-heading {
+.mision {
   background-color: #F4A261;
   display: grid;
   padding: 0.7rem;
@@ -420,28 +420,28 @@ footer p {
   align-content: center;
   box-shadow: 0 0 4px 4px #F4A261;
 }
-.wrapper-heading h2 {
+.mision h2 {
   text-align: center;
   padding: 1rem;
   color: #000000;
 }
-.wrapper-heading article p {
+.mision article p {
   color: #000000;
   padding: 0.5rem;
 }
 @media (max-width: 768px) {
-  .wrapper-heading {
+  .mision {
     padding: 0.5rem;
   }
-  .wrapper-heading h2 {
+  .mision h2 {
     padding-top: 0.5rem;
   }
-  .wrapper-heading p {
+  .mision p {
     padding: 0.5rem;
   }
 }
 @media (max-width: 480px) {
-  .wrapper-heading article {
+  .mision article {
     display: block;
   }
 }
