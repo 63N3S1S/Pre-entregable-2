@@ -1,4 +1,4 @@
-.wrapper-front-page {
+.searcher {
     position: relative;
     z-index: 1;
 
@@ -18,7 +18,7 @@
     }
 }
 
-.main-section {
+.index-section {
     background-color: $amarillo-mostaza;
     @include transition-all;
 
@@ -48,7 +48,7 @@
     }
 }
 
-.popular-skills {
+.skills {
     background-color: $naranja;
     @include text3properties;
     @include transition-all (0.5s);
@@ -64,7 +64,7 @@
     gap: 20px;
     @include transition-all(0.7s);
 
-    .skills {
+    .skills-layout_skills {
         @include text3properties(center, 1.2rem);
 
         h4 {

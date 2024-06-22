@@ -57,7 +57,7 @@ footer p {
   transition: background-color 1s ease-in-out;
 }
 
-.navbar {
+.header-navbar {
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -66,7 +66,7 @@ footer p {
   padding: 0 2rem;
   position: relative;
 }
-.navbar::before, .navbar::after {
+.header-navbar::before, .header-navbar::after {
   content: "";
   position: absolute;
   top: 0;
@@ -77,15 +77,15 @@ footer p {
   box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);
   z-index: -1;
 }
-.navbar::after {
+.header-navbar::after {
   filter: blur(8px);
 }
 
-.menu_hamburguesa {
+.menu-hamburguesa {
   display: none;
   position: relative;
 }
-.menu_hamburguesa:checked + .ul_links {
+.menu-hamburguesa:checked + .ul_links {
   height: calc(100vh - 4rem);
 }
 
@@ -167,16 +167,16 @@ footer p {
     color: #FFFFFF;
   }
 }
-.wrapper-front-page {
+.searcher {
   position: relative;
   z-index: 1;
 }
-.wrapper-front-page img {
+.searcher img {
   width: 100%;
   height: 60vw;
   transition: all 0.5s ease;
 }
-.wrapper-front-page form {
+.searcher form {
   display: flex;
   position: absolute;
   right: 3vw;
@@ -185,40 +185,40 @@ footer p {
   transition: all 0.3s ease;
 }
 
-.main-section {
+.index-section {
   background-color: #E9C46A;
   transition: all 0.8s ease;
 }
-.main-section h2 {
+.index-section h2 {
   text-align: center;
   padding: 1rem;
   color: #000000;
   transition: all 0.3s ease;
 }
-.main-section p {
+.index-section p {
   text-align: justify;
   padding: 2rem;
   color: #000000;
   transition: all 0.5s ease;
 }
 @media (max-width: 768px) {
-  .main-section {
+  .index-section {
     padding: 10px;
   }
-  .main-section h2 {
+  .index-section h2 {
     text-align: center;
   }
 }
 @media (max-width: 480px) {
-  .main-section {
+  .index-section {
     padding: 3px;
   }
-  .main-section h2 {
+  .index-section h2 {
     text-align: center;
   }
 }
 
-.popular-skills {
+.skills {
   background-color: #F4A261;
   text-align: center;
   padding: 1rem;
@@ -235,21 +235,21 @@ footer p {
   gap: 20px;
   transition: all 0.7s ease;
 }
-.skills-layout .skills {
+.skills-layout .skills-layout_skills {
   text-align: center;
   padding: 1.2rem;
   color: #000000;
 }
-.skills-layout .skills h4 {
+.skills-layout .skills-layout_skills h4 {
   padding-bottom: 20px;
   font-weight: bold;
   transition: all 0.3s ease;
 }
-.skills-layout .skills p {
+.skills-layout .skills-layout_skills p {
   text-align: justify;
   transition: all 0.3s ease;
 }
-.skills-layout .skills img {
+.skills-layout .skills-layout_skills img {
   width: 100%;
   aspect-ratio: 16/9;
   transition: all 0.5s ease;

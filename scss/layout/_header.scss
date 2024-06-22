@@ -6,7 +6,7 @@
     transition: background-color 1s ease-in-out;
 }
 
-.navbar {
+.header-navbar {
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -33,7 +33,7 @@
     }
 }
 
-.menu_hamburguesa {
+.menu-hamburguesa {
     display: none;
     position: relative;
 
