@@ -5,7 +5,7 @@
     margin: 0 auto;
 }
 
-.wrapper-main-section-menu4 {
+.menu4-header {
     @include text3properties;
     width: 100%;
     background-color: $amarillo-mostaza;
@@ -30,13 +30,13 @@
     }
 }
 
-.label {
+.menu4-header_label {
     display: block;
     padding: 10px;
     color: $gris-carbon;
     gap: 1rem;
 
-    label   {
+    label {
         cursor: pointer;
 
         &:hover {
@@ -54,7 +54,7 @@
         display: none;
     }
 
-    .label-content {
+    .menu4-header_label_content {
         display: none;
         padding: 10px;
 
@@ -68,7 +68,7 @@
     }
 }
 
-.wrapper-faq {
+.faq {
     background-color: $naranja;
     color: $texto-negro;
     max-width: 600px;
@@ -80,7 +80,7 @@
         color: $texto-negro;
     }
 
-    .faq {
+    .faq-container {
         border-top: 1px solid #ddd;
     }
 
@@ -88,7 +88,7 @@
         display: none;
     }
 
-    .faq-content {
+    .faq-container_p {
         display: none;
         padding: 1rem;
         background-color: $amarillo-mostaza;
@@ -112,7 +112,7 @@
     }
 }
 
-.big-box {
+.box {
     background-color: $amarillo-mostaza;
     display: flex;
     justify-content: space-around;
@@ -122,7 +122,7 @@
 
     @include box-shadow-matador ($amarillo-mostaza, 4px);
 
-    .box {
+    .box-container {
         @include text3properties;
         background-color: $naranja;
         border-radius: 10px;
@@ -135,7 +135,7 @@
             border-radius: 50%;
         }
 
-        .rating i {
+        .box-container_raiting i {
             color: gold;
         }
 
