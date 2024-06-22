@@ -17,7 +17,6 @@
     padding: 10px;
     cursor: pointer;
     color: $gris-carbon;
-<<<<<<< HEAD
     gap: 1rem;
 
     label {
@@ -33,8 +32,6 @@
             transform: scale(1.05);
         }
     }
-=======
->>>>>>> parent of d157740 (Se aplicaron animaciones y transiciones a las pages multimedia/categorias)
 
     .label-toggle {
         display: none;
@@ -106,13 +103,9 @@
     gap: 1rem;
     padding: 1rem;
 
-<<<<<<< HEAD
     @include box-shadow-matador ($amarillo-mostaza, 4px);
 
     .box-container {
-=======
-    .box {
->>>>>>> parent of d157740 (Se aplicaron animaciones y transiciones a las pages multimedia/categorias)
         @include text3properties;
         background-color: $naranja;
         border-radius: 10px;

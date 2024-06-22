@@ -1,0 +1,313 @@
+[33mcommit 7fea79a4b15082469557ceebc9caf72f1eef0e79[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Merge: 556db23 e6ce052
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Sat Jun 22 17:08:20 2024 -0300
+
+    git trash
+
+[33mcommit e6ce052f8148535ed664244cb625f75553da5dde[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: ezewena <49923348+ezewena@users.noreply.github.com>
+Date:   Sat Jun 22 16:55:18 2024 -0300
+
+    revert
+
+[33mcommit 556db23a8fc0528970dde249e7807b84011e83c7[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Sat Jun 22 16:21:07 2024 -0300
+
+    Sigo si poder restaurar
+
+[33mcommit 120cf56bd0ed94bbfd2aef1b1c3682d88021e875[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Sat Jun 22 15:26:15 2024 -0300
+
+    Se intentan recuperar los cambios del hard reset
+
+[33mcommit 053453d6abced364d101ed213b7da8d18e8f6cc3[m
+Merge: 294538b d5fc699
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Sat Jun 22 14:38:00 2024 -0300
+
+    intentando solucionar el reset
+
+[33mcommit 294538b108c152b6aae5bc340e9718698d75a1bf[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Sat Jun 22 14:13:45 2024 -0300
+
+    Mensaje describiendo los cambios
+
+[33mcommit d5fc6994799c82854b618a477dacac5e387c52bf[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Sat Jun 22 12:53:15 2024 -0300
+
+    Se realizaron cambios en los archivos categorias-opiniones.html/categorias-opiniones.scss siguiendo modalidad BEM
+
+[33mcommit 2b3d31cedf3ca451542f3835c5fbb424620cf231[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Sat Jun 22 12:42:14 2024 -0300
+
+    Se realizaron cambios en los archivos multimedia-ubicacion.html/multimedia-ubicacion.scss siguiendo modalidad BEM
+
+[33mcommit 5a1910e4a0c453e355a71a5489d30f84c8aee929[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Sat Jun 22 12:35:03 2024 -0300
+
+    Se realizaron cambios en los archivos recursos-profesionales.html/recursos-profesionales.scss siguiendo modalidad BEM
+
+[33mcommit c599b97174513769735a0a1777625051ca069467[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Sat Jun 22 12:03:32 2024 -0300
+
+    Se realizaron cambios en los archivos ventajas-descripcion.html/ventajas-descripcion.scss siguiendo modalidad BEM
+
+[33mcommit 1002b8331a594643458433166009d373ec5e2cad[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Sat Jun 22 11:48:35 2024 -0300
+
+    Se realizaron cambios en los archivos header.scss/index.html/index.scss siguiendo modalidad BEM
+
+[33mcommit d2d89edb6c2b7c73e3285c431ada809d551c40cd[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Thu Jun 20 20:54:09 2024 -0300
+
+    Se actualiza el archivo readme
+
+[33mcommit d1577407c320071f07ff4c818ccef324cc457db9[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Thu Jun 20 19:44:55 2024 -0300
+
+    Se aplicaron animaciones y transiciones a las pages multimedia/categorias
+
+[33mcommit cd979177ab801804cceedb834a58f425c8217ca0[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Thu Jun 20 18:40:49 2024 -0300
+
+    Se aplicaron animaciones y transiciones a las pages index/ventajas/recursos
+
+[33mcommit 7293f75dd8d1c5f23366790f2343ee7eeaae51c3[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Thu Jun 20 13:38:42 2024 -0300
+
+    Se aplicaron animaciones y transiciones al footer/index
+
+[33mcommit 84bd42cc57e1ed4bac67fe3b0e9568f4f9a1178b[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Thu Jun 20 11:23:31 2024 -0300
+
+    Se genero el archivo keyframes.scss y se le aplico animaciones y transiciones al header
+
+[33mcommit 1183a389ebb8e7aef925b425211580dc0162a59a[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Wed Jun 19 21:54:49 2024 -0300
+
+    Se aplicaron mixin a los media query de recursos-profesionales.scss
+
+[33mcommit 053af8d9a8f80520f950e2249cc9c5f5e201ed50[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Wed Jun 19 21:33:29 2024 -0300
+
+    Se aplicaron mixin a los media query de ventajas-descripcion.scss
+
+[33mcommit d87b8319778716cdd2fe46664e860554a8df93b6[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Wed Jun 19 21:20:31 2024 -0300
+
+    Se aplicaron mixin a los media query del index.scss
+
+[33mcommit ee1e7a4233e4125e6dd08774b5567d0df79a5b6c[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Wed Jun 19 14:38:17 2024 -0300
+
+    Se aplico los mixins creados a los archivos de la carpeta pages de scss
+
+[33mcommit 63a77f4a4765b0e217bd643bf807fde947ee6259[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Wed Jun 19 13:55:12 2024 -0300
+
+    Se creo el archivo _mixins y se aplico mixin al index.scss
+
+[33mcommit 33e126a44c58a0736f69223f011f574d819a9ed3[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Wed Jun 19 12:26:04 2024 -0300
+
+    Cambios en las siguientes pages categorias/multimedia/recursos/ventajas/main de scss
+
+[33mcommit 0b59c5c10b3a01a82344693bffdc69144abcf652[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Tue Jun 18 23:20:35 2024 -0300
+
+    Cambios de colores footer/header/index de archivos scss
+
+[33mcommit 7bf67623894655ceb1224b87bc1a1d825c3a358d[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Tue Jun 18 22:40:47 2024 -0300
+
+    Ajustes en layout de scss
+
+[33mcommit e4bbe037a67478d3715116866e0bd0ef53280816[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Tue Jun 18 21:23:40 2024 -0300
+
+    Import main scss
+
+[33mcommit 406888fbd82f5fba008df5cbb82184721249f0c8[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Tue Jun 18 20:36:10 2024 -0300
+
+    Se agregan los breakpoints a la carpeta pages de scss
+
+[33mcommit 320c5fdbf58657b519eff7913fd04b62fb460171[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Tue Jun 18 20:17:41 2024 -0300
+
+    Cambios en la carpeta pages de scss
+
+[33mcommit 37eba812a5b8adb49d3083ed839ba0c73a645023[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Tue Jun 18 19:49:06 2024 -0300
+
+    Cambios en organizacion de carpeta scss
+
+[33mcommit 4bc54b5c9d6df84c909a6b65664863318aada051[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Tue Jun 18 19:22:57 2024 -0300
+
+    Cambios carpeta layout
+
+[33mcommit 31d0786f0a1752c20519a050431579cf31901b50[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Tue Jun 18 17:55:12 2024 -0300
+
+    Creacion de la estructura de los componentes
+
+[33mcommit 61fda806c38ec939f2adf1ec4b58d9543cead71b[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Tue Jun 18 12:03:00 2024 -0300
+
+    Inicio pre-entregable 3
+
+[33mcommit 732269ec2efef9ae54a0ebe516f7ecf8ee6b2cd5[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Thu Jun 6 19:03:14 2024 -0300
+
+    modificacion archivo readme
+
+[33mcommit 66e2061bc90d1d8393e28f6a60e7250c86eead9b[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Thu Jun 6 18:01:56 2024 -0300
+
+    Se modificaron los nombres de las pages y a su vez sus enlaces
+
+[33mcommit 3f1dc3d76e1cda9f57d086b867ffa62a44a270b3[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Thu Jun 6 17:45:19 2024 -0300
+
+    Menu4 modificado
+
+[33mcommit d3c1d81c1b83c61aef91722c3e620f9a76053377[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Thu Jun 6 17:36:26 2024 -0300
+
+    Menu3 modificado
+
+[33mcommit d45514675d883f342fb5b8321693de578e31359f[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Thu Jun 6 17:20:29 2024 -0300
+
+    Menu2 modificado
+
+[33mcommit 62910d70b68f6025b82ac72f55801075ba0ea1bc[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Thu Jun 6 17:10:16 2024 -0300
+
+    Menu1 modificado
+
+[33mcommit cae29c575ae9ce0110d351e6eed8608b65f53d74[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Thu Jun 6 16:59:32 2024 -0300
+
+    Main modificado
+
+[33mcommit 22d9d24e8d701c74848b5b54295a7cc58d55f6f2[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Thu Jun 6 16:47:08 2024 -0300
+
+    Se comienza a darle forma al contenido de la pagina
+
+[33mcommit 0550d9db7faf8cc1989484aca26b7f1d74c641ff[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Wed Jun 5 21:07:07 2024 -0300
+
+    Menu 4 - Label modificado
+
+[33mcommit 2656d05ccbcea2dd43e99ee5a469dcb7a545ee01[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Wed Jun 5 20:47:23 2024 -0300
+
+    Cambios en Menu 4 - FAQ
+
+[33mcommit 1059e0d015aad32adab418aff023b1753ebb27be[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Wed Jun 5 20:26:54 2024 -0300
+
+    Correcciones en ejecucion de page login
+
+[33mcommit 6b7bbb9f01d1e342da5f4bbfa497910e3add9042[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Wed Jun 5 19:55:58 2024 -0300
+
+    Modificaciones en enlaces de login
+
+[33mcommit 6248435b8b30a10340d62af14339859e5c89b40a[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Wed Jun 5 19:52:17 2024 -0300
+
+    Login finalizado
+
+[33mcommit 1563a81b0a9390b2b829431b6744292d610d02bb[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Wed Jun 5 19:42:06 2024 -0300
+
+    Menu 4 responsive terminado
+
+[33mcommit dbae7cb4465b3afa361c8511c12bf3bfb6e608e7[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Wed Jun 5 18:38:32 2024 -0300
+
+    Menu 3 responsive terminado
+
+[33mcommit 6fa6a79bb6b06ca9eddb0c7ef47cb0900f08a954[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Sun Jun 2 22:30:58 2024 -0300
+
+    Menu2-responsive terminado
+
+[33mcommit e809ffcab3935ff75faeaadfbe3f046619fbab45[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Sun Jun 2 22:10:03 2024 -0300
+
+    Cambio general en footer de las pages
+
+[33mcommit b50e9e0686adcf873ec97dab0302fdf66bfac984[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Sun Jun 2 19:28:57 2024 -0300
+
+    Inicio menu2-responsive css
+
+[33mcommit c551dc70130bbce64412c0788aa867b7cb4a81dc[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Sun Jun 2 19:11:56 2024 -0300
+
+    Menu1-responsive terminado
+
+[33mcommit 14b36b596fa2e4bd3a8433cb9fc65e1e5c1ba400[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Sun Jun 2 18:38:14 2024 -0300
+
+    Se suman nuevos archivos
+
+[33mcommit a3a173beeeb46b43bb8d5c2fca90543ab6793d8b[m
+Author: Max Gonzalez Roy <groymax1@gmail.com>
+Date:   Sun Jun 2 18:27:42 2024 -0300
+
+    Inicio de primer punto de guardado de Git
