@@ -26,14 +26,6 @@
     box-shadow: 0 0 $shadow-size $shadow-size $shadow-color;
 }
 
-@mixin box-shadow-matador($shadow-color, $shadow-size) {
-    box-shadow: 
-        0 0 $shadow-size $shadow-size $shadow-color,
-        0 0 $shadow-size $shadow-size $shadow-color,  
-        0 0 $shadow-size $shadow-size $shadow-color,  
-        0 0 $shadow-size $shadow-size $shadow-color;  
-}
-
 @mixin transition-all($duration: 0.8s, $timing: ease) {
     transition: all $duration $timing;
 }
