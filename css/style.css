@@ -49,7 +49,7 @@ footer p {
   transition: background-color 1s ease-in-out;
 }
 
-.header-navbar {
+.navbar {
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -58,7 +58,7 @@ footer p {
   padding: 0 2rem;
   position: relative;
 }
-.header-navbar::before, .header-navbar::after {
+.navbar::before, .navbar::after {
   content: "";
   position: absolute;
   top: 0;
@@ -69,15 +69,15 @@ footer p {
   box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.3);
   z-index: -1;
 }
-.header-navbar::after {
+.navbar::after {
   filter: blur(8px);
 }
 
-.menu-hamburguesa {
+.menu_hamburguesa {
   display: none;
   position: relative;
 }
-.menu-hamburguesa:checked + .ul_links {
+.menu_hamburguesa:checked + .ul_links {
   height: calc(100vh - 4rem);
 }
 
