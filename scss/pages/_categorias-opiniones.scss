@@ -19,6 +19,10 @@
     color: $gris-carbon;
     gap: 1rem;
 
+    .label-toggle {
+        display: none;
+    }
+
     label {
         cursor: pointer;
 
@@ -31,10 +35,6 @@
             
             transform: scale(1.05);
         }
-    }
-
-    .label-toggle {
-        display: none;
     }
 
     .menu4-header_label_content {
@@ -82,7 +82,7 @@
         }
     }
 
-    .faq-toggle:checked + label + .faq-content {
+    .faq-toggle:checked + label + .faq-container_p {
         display: block;
     }
 

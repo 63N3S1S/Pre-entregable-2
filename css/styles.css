@@ -743,6 +743,9 @@ footer p {
   color: #333333;
   gap: 1rem;
 }
+.menu4-header_label .label-toggle {
+  display: none;
+}
 .menu4-header_label label {
   cursor: pointer;
 }
@@ -752,9 +755,6 @@ footer p {
   align-items: center;
   box-shadow: 0 0 4px 4px #F4A261, 0 0 4px 4px #F4A261, 0 0 4px 4px #F4A261, 0 0 4px 4px #F4A261;
   transform: scale(1.05);
-}
-.menu4-header_label .label-toggle {
-  display: none;
 }
 .menu4-header_label .menu4-header_label_content {
   display: none;
@@ -793,7 +793,7 @@ footer p {
 .faq .faq-container_p p {
   color: #333333;
 }
-.faq .faq-toggle:checked + label + .faq-content {
+.faq .faq-toggle:checked + label + .faq-container_p {
   display: block;
 }
 @media (max-width: 768px) {
