@@ -177,7 +177,7 @@ footer p {
   padding: 10px;
   padding-left: 50vw;
 }
-.wrap-searcher h2 {
+.wrap-searcher h1 {
   color: rgb(250, 249, 249);
   background-color: rgba(0, 0, 0, 0.5);
   width: auto;
@@ -186,6 +186,8 @@ footer p {
   margin-top: 2rem;
 }
 .wrap-searcher p {
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
   color: rgb(250, 249, 249);
   background-color: rgba(0, 0, 0, 0.5);
   width: 90%;
@@ -193,63 +195,6 @@ footer p {
   backdrop-filter: blur(8px);
 }
 
-/* .searcher {
-    position: relative;
-    z-index: 1;
-
-    img {
-        width: 100%;
-        height: 60vw;
-        @include transition-all(0.5s);
-    }
-
-    h1 {
-        display: flex;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        padding: 10px;
-        z-index: 10;
-    }
-
-    form {
-        display: flex;
-        position: absolute;
-        right: 3vw;
-        top: 2vw;
-        z-index: 5;
-        @include transition-all(0.3s);
-    }
-} */
-/* .index-section {
-    background-color: $amarillo-mostaza;
-    @include transition-all;
-
-    h2 {
-        @include text3properties;
-        @include transition-all(0.3s);
-    }
-
-    p {
-        @include text3properties(justify, 2rem);
-        @include transition-all(0.5s);
-    }
-
-    @include maxwidth-768px {
-        padding: 10px;
-
-        h2 {
-            text-align: center;
-        }
-    }
-    @include maxwidth-480px {
-        padding: 3px;
-
-        h2 {
-            text-align: center;
-        }
-    }
-} */
 .skills {
   background-color: #F4A261;
   text-align: center;
@@ -272,7 +217,7 @@ footer p {
   padding: 1.2rem;
   color: #000000;
 }
-.skills-layout .skills-layout_skills h4 {
+.skills-layout .skills-layout_skills h3 {
   padding-bottom: 20px;
   font-weight: bold;
   transition: all 0.3s ease;
@@ -302,7 +247,7 @@ footer p {
   transition: all 0.3s ease;
   box-shadow: 0 0 4px 4px #E9C46A;
 }
-.profesionals h3 {
+.profesionals h4 {
   text-align: center;
   padding: 1rem;
   color: #000000;
@@ -352,10 +297,10 @@ footer p {
   transition: all 0.8s ease;
   box-shadow: 0 0 4px 4px #F4A261;
 }
-.tarjet h3 {
+.tarjet h5 {
   padding-top: 2rem;
 }
-.tarjet h3 i {
+.tarjet h5 i {
   pointer-events: none;
 }
 .tarjet ul {
