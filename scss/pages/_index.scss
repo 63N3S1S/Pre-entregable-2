@@ -1,4 +1,39 @@
 .searcher {
+    width: 100%;
+    height: 70vh;
+    background: url(/img/portada1.webp);
+    background-size: cover;
+    background-position: center;
+}
+.wrap-searcher {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    form {
+        padding: 10px;
+        padding-left: 50vw;
+    }
+
+    h2 {
+        color: rgb(250, 249, 249);
+        background-color: rgba(0, 0, 0, 0.5);
+        width: auto;
+        text-align: center;
+        backdrop-filter: blur(8px);
+        margin-top: 2rem;
+    }
+
+    p {
+        color: rgb(250, 249, 249);
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 90%;
+        text-align: justify;
+        backdrop-filter: blur(8px);
+    }
+}
+/* .searcher {
     position: relative;
     z-index: 1;
 
@@ -6,6 +41,15 @@
         width: 100%;
         height: 60vw;
         @include transition-all(0.5s);
+    }
+
+    h1 {
+        display: flex;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        padding: 10px;
+        z-index: 10;
     }
 
     form {
@@ -16,9 +60,9 @@
         z-index: 5;
         @include transition-all(0.3s);
     }
-}
+} */
 
-.index-section {
+/* .index-section {
     background-color: $amarillo-mostaza;
     @include transition-all;
 
@@ -46,7 +90,7 @@
             text-align: center;
         }
     }
-}
+} */
 
 .skills {
     background-color: $naranja;
@@ -151,7 +195,11 @@
     @include transition-all;
 
     h3  {
-        padding-top: 2rem;
+        padding-top: 2rem;  
+        
+        i {
+            pointer-events: none;
+        }
     }
 
     ul {

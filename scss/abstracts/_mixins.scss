@@ -37,3 +37,18 @@
 @mixin transition-all($duration: 0.8s, $timing: ease) {
     transition: all $duration $timing;
 }
+
+@mixin icon-img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+}
+
+@mixin icon-link {
+    display: inline-block;
+    pointer-events: none;
+        img {
+            pointer: none;
+        }
+}
