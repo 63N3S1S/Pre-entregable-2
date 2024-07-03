@@ -579,7 +579,7 @@ footer p {
   padding: 1rem;
   box-shadow: 0 0 4px 4px #F4A261;
 }
-.subscription h2 {
+.subscription h4 {
   text-align: center;
   padding-bottom: 1rem;
 }
@@ -593,7 +593,7 @@ footer p {
 .subscription .subscription-div .subscription-div_offer {
   width: 100%;
 }
-.subscription .subscription-div .subscription-div_offer h3 {
+.subscription .subscription-div .subscription-div_offer h5 {
   text-align: center;
   padding: 0.5rem;
   color: #FF4500;
@@ -618,7 +618,7 @@ footer p {
   .subscription .subscription-div .subscription-div_offer {
     width: 100%;
   }
-  .subscription .subscription-div .subscription-div_offer h3 {
+  .subscription .subscription-div .subscription-div_offer h5 {
     padding: 0.25rem;
   }
 }
