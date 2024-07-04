@@ -174,8 +174,9 @@ footer p {
   align-items: center;
 }
 .wrap-searcher form {
+  margin-top: 1rem;
   padding: 10px;
-  padding-left: 50vw;
+  padding-left: 75vw;
 }
 .wrap-searcher h1 {
   color: rgb(250, 249, 249);
@@ -183,16 +184,16 @@ footer p {
   width: auto;
   text-align: center;
   backdrop-filter: blur(8px);
-  margin-top: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 .wrap-searcher p {
-  padding-top: 1.5rem;
-  padding-bottom: 0.5rem;
   color: rgb(250, 249, 249);
   background-color: rgba(0, 0, 0, 0.5);
-  width: 90%;
+  width: 80%;
   text-align: justify;
   backdrop-filter: blur(8px);
+  padding: 10px;
 }
 
 .skills {
