@@ -7,10 +7,22 @@ footer {
     align-items: center;
     background-color: $rojo-coral;
     padding: 0 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+
     @include box-shadow($rojo-coral, 4px);
 
     p {
         gap: 1rem;
         padding: 1rem;
+    }
+
+    @include maxwidth-768px {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    @include maxwidth-480px {
+        padding: 0.2rem;
+        font-size: 0.8rem;
     }
 }

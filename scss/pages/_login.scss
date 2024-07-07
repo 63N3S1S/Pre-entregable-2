@@ -4,13 +4,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 110vh;
+    height: auto;
+    width: auto;
+
+    @include maxwidth-768px {
+        height: auto;
+    }
+
+    @include maxwidth-480px {
+        height: auto;
+    }
 }
 
 .container-login {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @include maxwidth-768px {
+        width: auto;
+    }
+
+    @include maxwidth-480px {
+        width: auto;
+    }
 }
 
 .btn-home {
@@ -21,6 +38,7 @@
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    margin-top: 20px;
     margin-bottom: 20px;
 
     &:hover {
