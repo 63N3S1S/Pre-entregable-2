@@ -38,7 +38,7 @@
         }
     }
 
-    h1 {
+    h2 {
         color: rgb(250, 249, 249);
         background-color: rgba(0, 0, 0, 0.5);
         width: auto;
@@ -64,10 +64,10 @@
         }
     }
 
-    p {
+    h3 {
         color: rgb(250, 249, 249);
         background-color: rgba(0, 0, 0, 0.5);
-        width: 80%;
+        width: 90%;
         text-align: justify;
         backdrop-filter: blur(20px);
         padding: 10px;
@@ -100,7 +100,7 @@
 
     @include box-shadow ($naranja,4px);
 
-    h2 {
+    h4 {
         font-weight: bold;
         @include text3properties(center, 1rem,$texto-negro);
     }
@@ -117,7 +117,7 @@
     .skills-layout_skills {
         @include text3properties(center, 1.2rem);
 
-        h3 {
+        h5 {
             padding-bottom: 20px;
             font-weight: bold;
             @include transition-all(0.3s);
@@ -150,7 +150,7 @@
 
     @include box-shadow ($amarillo-mostaza, 4px);
 
-    h4 {
+    h6 {
         @include text3properties;
         font-size: 1.5rem; /* Ajuste específico para móviles */
         @include transition-all(0.3s);
@@ -200,7 +200,7 @@
     padding-bottom: 1vw;
     @include transition-all;
 
-    h5  {
+    h7  {
         padding-top: 2rem;  
         
         i {
