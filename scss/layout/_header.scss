@@ -1,5 +1,6 @@
 .header {
     height: $altura-header;
+    width: 100%;
     background-color: $rojo-coral;
     position: relative;
     z-index: 50;
@@ -14,7 +15,7 @@
     flex-wrap: wrap;
     padding: 0 $padding-left-right;
     position: relative;
-    
+        
     &::before,
     &::after {
         content: '';
@@ -30,6 +31,22 @@
     
     &::after {
         filter: blur(8px);
+    }
+
+    @media (min-width: 768px) and (max-width: 1016px) {
+        .navbar {
+            justify-content: space-around;
+            align-items: end;
+    
+            .logo {
+                flex-grow: 1;
+                margin-right: 1rem;
+            }
+    
+            .labe_hamburguesa {
+                margin-left: 1rem;
+            }
+        }
     }
 }
 

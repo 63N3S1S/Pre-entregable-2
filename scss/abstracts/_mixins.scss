@@ -10,6 +10,12 @@
     color: $texto;
 }
 
+@mixin maxwidth-1016px {
+    @media (max-width: 1016px) {
+    @content;
+    }
+}
+
 @mixin maxwidth-768px {
     @media (max-width: 768px) {
     @content;
