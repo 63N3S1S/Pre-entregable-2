@@ -32,31 +32,15 @@
     &::after {
         filter: blur(8px);
     }
-
-    @media (min-width: 768px) and (max-width: 1016px) {
-        .navbar {
-            justify-content: space-around;
-            align-items: end;
-    
-            .logo {
-                flex-grow: 1;
-                margin-right: 1rem;
-            }
-    
-            .labe_hamburguesa {
-                margin-left: 1rem;
-            }
-        }
-    }
 }
 
 .menu_hamburguesa {
     display: none;
-    position: relative;
+}
 
-    &:checked + .ul_links {
-        height: calc(100vh - $altura-header);
-    }
+.labe_hamburguesa {
+    display: block;
+    cursor: pointer;
 }
 
 .list_icon {
@@ -89,6 +73,10 @@
     z-index: 30;
 }
 
+.menu_hamburguesa:checked ~ .ul_links {
+    height: calc(100vh - $altura-header);
+}
+
 .link {
     font-size: 1.2em;
     color: $texto-negro;
@@ -99,7 +87,6 @@
         background-color: $amarillo-mostaza;
         color: $texto-blanco;
         border-radius: 7px;
-        gap: 5px;
     }
 }
 
@@ -139,6 +126,22 @@
         &:hover {
             background-color: $amarillo-mostaza;
             color: $texto-blanco;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1016px) {
+    .navbar {
+        justify-content: space-around;
+        align-items: end;
+
+        .logo {
+            flex-grow: 1;
+            margin-right: 1rem;
+        }
+
+        .labe_hamburguesa {
+            margin-left: 1rem;
         }
     }
 }
