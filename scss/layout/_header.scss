@@ -1,7 +1,7 @@
 .header {
     height: $altura-header;
     width: 100%;
-    background-color: $rojo-coral;
+    background-color: $color-marron;
     position: relative;
     z-index: 50;
     transition: background-color 1s ease-in-out;
@@ -58,7 +58,7 @@
 
 .ul_links {
     width: 100%;
-    background-color: $rojo-coral;
+    background-color: $color-marron;
     position: absolute;
     top: $altura-header;
     left: 0;
@@ -84,8 +84,8 @@
     transition: background-color 0.3s ease, color 0.3s ease;
 
     &:hover {
-        background-color: $amarillo-mostaza;
-        color: $texto-blanco;
+        background-color: $color-crema;
+        color: $texto-gris;
         border-radius: 7px;
     }
 }
@@ -94,12 +94,12 @@
     text-decoration: underline;
     font-weight: bold;
     font-size: 1.2rem;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Transición de color y fondo */
+    transition: background-color 0.3s ease, color 0.3s ease;
     padding: .2rem .7rem;
     color: $texto-blanco;
 
     &:hover {
-        background-color: $naranja;
+        background-color: $color-blanco-casi;
         color: $texto-negro;
         border-radius: 7px;
     }
@@ -120,12 +120,12 @@
 
     .link {
         font-size: 1.2rem;
-        transition: background-color 0.3s ease, color 0.3s ease; /* Transición de color */
+        transition: background-color 0.3s ease, color 0.3s ease;
         padding: .2rem .7rem;
         
         &:hover {
-            background-color: $amarillo-mostaza;
-            color: $texto-blanco;
+            background-color: $color-crema;
+            color: $texto-gris;
         }
     }
 }

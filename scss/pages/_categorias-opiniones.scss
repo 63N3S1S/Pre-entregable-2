@@ -8,8 +8,12 @@
 .menu4-header {
     @include text3properties;
     width: 100%;
-    background-color: $amarillo-mostaza;
+    background-color: $color-crema;
     gap: 1rem;
+
+    h2 {
+        color: $texto-negro;
+    }
 }
 
 .menu4-header_label {
@@ -27,12 +31,10 @@
         cursor: pointer;
 
         &:hover {
-            background-color: $amarillo-mostaza;
+            background-color: $color-blanco-casi;
             color: #000000;
             align-items: center;
-            
-            @include box-shadow-matador ($naranja, 4px);
-            
+            @include box-shadow-matador($color-beige, 4px);
             transform: scale(1.05);
         }
     }
@@ -52,7 +54,7 @@
 }
 
 .faq {
-    background-color: $naranja;
+    background-color: $color-crema;
     color: $texto-negro;
     max-width: 600px;
     margin: 1rem auto;
@@ -74,7 +76,7 @@
     .faq-container_p {
         display: none;
         padding: 10px;
-        background-color: $amarillo-mostaza;
+        background-color: $color-crema;
         border-radius: 8px;
 
         p {
@@ -96,18 +98,18 @@
 }
 
 .box {
-    background-color: $amarillo-mostaza;
+    background-color: $color-beige;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 1rem;
     padding: 1rem;
 
-    @include box-shadow-matador ($amarillo-mostaza, 4px);
+    @include box-shadow-matador($color-beige, 4px);
 
     .box-container {
         @include text3properties;
-        background-color: $naranja;
+        background-color: $color-crema;
         border-radius: 10px;
         width: 30%;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);

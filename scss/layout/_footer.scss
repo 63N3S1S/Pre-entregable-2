@@ -1,15 +1,15 @@
+
 footer {
     color: $texto-negro;
     display: flex;
     justify-content: space-between;
     height: 4rem;
-    align-content: center;
     align-items: center;
-    background-color: $rojo-coral;
+    background-color: $color-marron;
     padding: 0 1rem;
     font-family: 'Roboto Condensed', sans-serif;
 
-    @include box-shadow($rojo-coral, 4px);
+    @include box-shadow($color-marron, 4px);
 
     p {
         gap: 1rem;

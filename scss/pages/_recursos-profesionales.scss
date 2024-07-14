@@ -1,12 +1,12 @@
 .menu2-header {
     @include text3properties;
-    background-color: $amarillo-mostaza;
+    background-color: $color-crema;
     display: flex;
     gap: 1rem;
     width: 100%;
     height: auto;
 
-    @include box-shadow ($amarillo-mostaza, 4px);
+    @include box-shadow ($color-crema, 4px);
 
     iframe {
         width: 70%;
@@ -40,16 +40,16 @@
 }
 
 .topics {
-    background-color: $naranja;
+    background-color: $color-beige;
     padding: 1rem;
 
-    @include box-shadow ($naranja, 4px);
+    @include box-shadow ($color-beige, 4px);
 
     h2 {
         @include text3properties;
     }
     p {
-        @include text3properties(justify,2rem,$gris-carbon);    
+        @include text3properties(center,2rem,$gris-carbon);    
     }
     ul {
         color: $texto-gris;
@@ -86,13 +86,13 @@
 }
 
 .profesionals2 {
-    background-color: $amarillo-mostaza;
+    background-color: $color-crema;
 
     h3 {
         @include text2properties(center,$gris-carbon);
     }
 
-    @include box-shadow ($amarillo-mostaza, 4px);
+    @include box-shadow ($color-crema, 4px);
 }
 
 .profesionals2-card {
@@ -116,7 +116,7 @@
             @include text2properties(justify,$texto-gris);
         }
         a {
-            @include text3properties(center,1rem,$texto-rojo);
+            @include text3properties(center,1rem,$texto-gris);
             text-decoration: underline;
             display: block;
         }
@@ -137,7 +137,7 @@
 }
 
 .subscription {
-    background: $naranja;
+    background: $color-beige;
     gap: 2rem;
     padding: 1rem;
 
@@ -146,7 +146,7 @@
         padding-bottom: 1rem;
     }
 
-    @include box-shadow ($naranja, 4px);
+    @include box-shadow ($color-beige, 4px);
 
     .subscription-div {
         width: 100%;
@@ -159,7 +159,7 @@
             width: 100%;
 
             h6 {
-                @include text3properties(center,0.5rem,$texto-rojo);
+                @include text3properties(center,0.5rem,$texto-gris);
                 height: 40px;
             }
             p   {
@@ -188,4 +188,4 @@
         }
     }
     }
-}   
+}

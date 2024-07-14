@@ -1,6 +1,6 @@
 .wrapper-video {
     position: relative;
-    padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
     max-width: 100%;
@@ -18,7 +18,7 @@
 
 @media (max-width: 768px) {
     .wrapper-video {
-        padding-bottom: 75%; /* Aspect ratio 4:3 */
+        padding-bottom: 75%;
     }
 
     .container > div {
@@ -37,7 +37,7 @@
 
 @media (max-width: 480px) {
     .wrapper-video {
-        padding-bottom: 100%; /* Aspect ratio 1:1 */
+        padding-bottom: 100%;
     }
 
     .container > div {
@@ -54,10 +54,11 @@
 }
 
 .wrapper-container {
-    background-color: $amarillo-mostaza;
+    background-color: $color-crema;
 
     h2 {
         padding-top: 1rem;
+        color: $texto-negro;
     }
 
     .container {
@@ -89,10 +90,10 @@
     @media (max-width: 768px) {
         .container {
             div {
-                flex: 1 1 calc(50% - 16px); /* Dos columnas */
+                flex: 1 1 calc(50% - 16px);
                 
                 .image-frame {
-                    height: 250px; /* Ajusta la altura para este breakpoint */
+                    height: 250px;
                 }
             }
         }
@@ -101,17 +102,18 @@
     @media (max-width: 480px) {
         .container {
             div {
-                flex: 1 1 100%; /* Una columna */
+                flex: 1 1 100%;
 
                 .image-frame {
-                    height: 200px; /* Ajusta la altura para este breakpoint */
+                    height: 200px;
                 }
             }
         }
     }
 }
+
 .maps {
-    background-color: $texto-azul;
+    background-color: $color-beige;
     width: 100%;
     margin: 0 auto;
 
@@ -131,5 +133,6 @@
     p {
         margin: 1rem;
         margin-top: 16px;
+        text-align: center;
     }
 }
